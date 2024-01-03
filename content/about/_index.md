@@ -1,5 +1,5 @@
 ---
 title: "About"
-type: blog
+type: about
 ---
 
