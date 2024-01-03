@@ -1,0 +1,96 @@
+.breadcrumbs {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555; 
+}
+  
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+  
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+.collection-page-title {
+    color: black; 
+}
+  
+.collection-page-container{
+  background-color: #FFFFFF;
+}
+
+.collection-page-title{
+    size:64px;
+    font-family: Poppins;
+    font-size: 700;
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #555;
+  padding-bottom: 20px;
+}
+
+.breadcrumbs a {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.collection-text-container{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.collection-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.collection-images-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px; /* Dodatkowy odstęp między kolumnami */
+}
+
+.collection-post-card {
+    text-align: center;
+}
+
+.collection-post-card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-post-card-title1,
+.collection-post-card-type,
+.collection-post-card-date1 {
+    margin: 10px 0;
+}
+
+.collection-text-container {
+    margin-top: 20px;
+}
+
+.collection-text1,
+.collection-text2 {
+    margin-bottom: 20px;
+}
+

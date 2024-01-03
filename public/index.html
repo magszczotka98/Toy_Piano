@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-REHdJ54MZtr1PTlAePH6Zwv+3GLZLDB+Uv/jYo4SNBnLUG2SJ5qUONMkB2mmMDAzyx3bQ74iD2pMnsx7y9bCCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     
-    <link rel="stylesheet" type="text/css" href="/css/bundle.min.dd61e4139a2535092258e93c25e47c7804f8651939d09e839b10eed5e06c0326.css" integrity="sha256-3WHkE5olNQkiWOk8JeR8eAT4ZRk50J6DmxDu1eBsAyY=" />
+    <link rel="stylesheet" type="text/css" href="/css/bundle.min.c2f2b059bf4c088b87f5f3cb17821807238dd8af6e7d6063607b6d41fea77cd6.css" integrity="sha256-wvKwWb9MCIuH9fPLF4IYByON2K9ufWBjYHttQf6nfNY=" />
 </head>
 
     <body>
@@ -36,6 +36,9 @@
         <div class="nav-bar" id="changeColorButton" onclick="changeColor()">
             <img src="/img/moon.png" alt="Moon Icon">
         </div>
+        <div class="nav-bar" id="IncreaseFontSize" onclick="changeColor()">
+            <img src="/img/big.png" alt="big Icon">
+        </div>
     </div> 
 </header>
 
@@ -51,6 +54,8 @@
         body.classList.toggle('inverted-theme');
     }
 </script>
+
+
 
         
 
@@ -73,7 +78,7 @@
     <div class="events">
         <div class="topic-container">
             <a href="/events" class="btn">
-                <h1>Wydarzenia</h1>
+                <h1>Wydarzenia</h1><br> 
                 <span>Zobacz więcej</span>
                 <i class="fas fa-arrow-right"></i>
                 <img src="\img\Arrow.png" alt="Strzałka" class="arrow-icon">
@@ -128,13 +133,15 @@
 
     
     <section class="news">
-    <div class="news">
+    <div class="news-info">
+        <h1 class="news-title">Aktualności</h1>
         <a href="/news" class="btn">
-            <h1>Aktualności</h1>
-            <span>Zobacz więcej</span>
-            <i class="fas fa-arrow-right"></i>
-            <img src="\img\Arrow.png" alt="Strzałka" class="arrow-icon">
+          <span>Zobacz więcej</span>
+          <i class="fas fa-arrow-right"></i>
+          <img src="\img\Arrow.png" alt="Strzałka" class="arrow-icon">
         </a>
+    </div>
+    <div class="news">
         <div class="news-container">
             <div class="grid-container">
                 <div class="grid-item news-slider1">

@@ -1,5 +1,5 @@
 ---
-title: "library"
+title: library
 type: library
 ---
 

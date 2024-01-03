@@ -1,5 +1,5 @@
 ---
-title: "collection"
+title: collection
 type: collection
 ---
 

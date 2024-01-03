@@ -21,9 +21,22 @@
 /* End Blog */
 
 /* Visit */
-@import "partials/visit/list.scss";
+@import "partials/visit/visit-post.scss";
 /* End Visit*/
 
-/*About*/
-@import "partials/about/list.scss";
+/* events */
+@import "partials/events/events-post.scss";
+/* End events */
+
+/* About */
+@import "partials/about/about-post.scss";
+@import "partials/about/historia-post.scss";
 /* End About */
+
+/* library */
+@import "partials/library/library-post.scss";
+/* End library */
+
+/* collection */
+@import "partials/collection/collection-post.scss";
+/* End collection */
