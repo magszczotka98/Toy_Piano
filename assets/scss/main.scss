@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "globals.scss";
+
+/* Common */
+@import "partials/common/header.scss";
+@import "partials/common/footer.scss";
+/* End Common */
+
+/* Home */
+@import "partials/home/welcome.scss";
+@import "partials/home/about.scss";
+@import "partials/home/projects.scss";
+@import "partials/home/blog.scss";
+@import "partials/home/events.scss";
+@import "partials/home/news.scss";
+/* End Home */
+
+/* Blog */
+@import "partials/blog/blog-posts.scss";
+@import "partials/blog/blog-post.scss";
+/* End Blog */
+

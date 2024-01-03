@@ -1,0 +1,16 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Galeria Toy Piano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-REHdJ54MZtr1PTlAePH6Zwv+3GLZLDB+Uv/jYo4SNBnLUG2SJ5qUONMkB2mmMDAzyx3bQ74iD2pMnsx7y9bCCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    {{ $bundleCSS := resources.Get "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ $bundleCSS.RelPermalink }}" integrity="{{ $bundleCSS.Data.Integrity }}" />
+</head>

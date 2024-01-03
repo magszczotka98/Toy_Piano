@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-container {
+    margin-top: 20px; 
+}
+
+
+.news-slider1 img {
+    width: 576px;
+    height: 384px;
+}
+
+.news-slider2 img,
+.news-slider3 img {
+    width: 272px;
+    height: 384px;
+}

@@ -1,0 +1,77 @@
+.breadcrumbs {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555; 
+}
+  
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+  
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+.visit-page-title {
+    color: #888; 
+}
+  
+.visit-page-container{
+  background-color: #FFFFFF;
+}
+
+.visit-page-title{
+    size:64px;
+    font-family: Poppins;
+    font-size: 700;
+}
+
+
+.visit-posts-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .visit-post-card {
+    flex: 0 0 48%; 
+    margin-bottom: 20px;
+  }
+  
+  .visit-post-card-title,
+  .visit-post-card-date1 {
+    margin-top: 10px;
+  }
+  
+  .visit-posts-map {
+    display: flex;
+    align-items: center;
+  }
+  
+  .visit-post-card-image {
+    flex: 0 0 50%;
+    margin-right: 20px;
+  }
+  
+  .visit-post-card-title,
+  .visit-post-card-date1,
+  .visit-post-card-date1 {
+    margin-top: 0;
+  }
+  
+  .visit-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .visit-page::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
