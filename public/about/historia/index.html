@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Galeria Toy Piano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-REHdJ54MZtr1PTlAePH6Zwv+3GLZLDB+Uv/jYo4SNBnLUG2SJ5qUONMkB2mmMDAzyx3bQ74iD2pMnsx7y9bCCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/bundle.min.dd0a2aeb51e9f4975259d1de3a27bc91f8e13ad64725228ea3c413536d176ce2.css" integrity="sha256-3Qoq61Hp9JdSWdHeOie8kfjhOtZHJSKOo8QTU20XbOI=" />
+</head>
+
+    <body>
+        <header class="header">
+    <div class="nav-bar"><img src="/img/clock.png" alt=""> GALERIA JEST DZIŚ OTWARTA W GODZINACH 10:00–17:00 </div>
+    <div class="header-container">
+        <a href="/" class="header-logo">
+            <img src="/img/logo.png" alt="Logo">
+        </a>
+        <nav class="header-nav">
+            <a href="/visit" class="header-nav-item">Wizyta</a>
+            <a href="/about" class="header-nav-item">O nas</a>
+            <a href="/events" class="header-nav-item">Wydarzenia</a>
+            <a href="/collection" class="header-nav-item">Kolekcja</a>
+            <a href="/library" class="header-nav-item">Biblioteka</a>
+        </nav>
+        <div class="nav-bar" id="changeColorButton" onclick="changeColor()">
+            <img src="/img/moon.png" alt="Moon Icon">
+        </div>
+        <div class="nav-bar" id="IncreaseFontSize" onclick="changeColor()">
+            <img src="/img/big.png" alt="big Icon">
+        </div>
+    </div> 
+</header>
+
+<script>
+    function changeColor() {
+        var body = document.body;
+
+        
+        var currentTheme = body.classList.contains('standard-theme') ? 'standard-theme' : 'inverted-theme';
+
+        
+        body.classList.toggle('standard-theme');
+        body.classList.toggle('inverted-theme');
+    }
+</script>
+
+
+
+        
+
+<div class="historia-posts">
+    <div class="historia-posts-container">
+        <h1 class="historia-page-title">Historia</h1>
+        <div class="breadcrumbs">
+            <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;"></span>
+        </div>
+    </div>
+</div>
+
+
+
+        <footer class="footer">
+  <div class="visit-info">
+      <h1 class="visit-title">Wizyta</h1>
+      <a href="/visit" class="btn">
+        <span>Zobacz więcej</span>
+        <i class="fas fa-arrow-right"></i>
+        <img src="\img\Arrow.png" alt="Strzałka" class="arrow-icon">
+      </a>
+  </div>
+      <div class="visit-container">
+        <div class="visit-details">
+          <div class="opening-hours">
+            <h2>Godziny Otwarcia</h2><br>
+            <p>Poniedziałek - Piątek: 9:00 - 18:00</p>
+            <p>Sobota: 9:00 - 14:00</p>
+          </div>
+          <div class="adres-title">
+            <h2>Adres</h2><br>
+            <p>ul. Nowy Świat 1</p>
+            <p>50-002 Warszawa</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="logo-container">
+          <img src="/img/logo.png" alt="Logo">
+          <div class="vector">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <img src="/img/Vector.png" alt="Vector Logo">
+        </div>
+        </div>
+      
+        <div class="part1">
+          <div class="Toy-Piano">
+            <h3>Galeria Toy Piano</h3>
+            <br>
+            <p>Ruska 46A</p>
+            <p>Wrocław 50 - 079</p>
+            <p>Telefon: 777 505 089</p>
+          </div>
+          <br>
+          <div class="info">
+            <h3>Ognisko Kultury Plastycznej im. E. Gepperta we Wrocławiu</h3>
+            <br>
+            <p>Ruska 46A</p>
+            <p>Wrocław 50 - 079</p>
+            <p>Telefon: 777 505 089</p>
+          </div>
+        </div>
+      
+        <div class="links-container">
+          <div class="links-shorts">
+            <h3>Na skróty</h3><br>
+            <a href="/visit" class="item">Wizyta</a><br>
+            <a href="/about" class="item">O nas</a><br>
+            <a href="/news" class="item">Wydarzenia</a><br>
+            <a href="/collection" class="item">Kolekcja</a><br>
+            <a href="/library" class="item">Biblioteka</a><br>
+          </div><br></br>
+          <div class="links-webs">
+            <h3>Bądź na bieżąco</h3>
+            <a href="https://www.facebook.com" class="web">Facebook</a>
+            <a href="https://www.youtube.com/@otwarte.pracownie.wroclaw9575" class="web">Youtube</a>
+            <a href="https://www.instagram.com" class="web">Instagram</a>
+          </div>
+        </div>
+      </div>
+  
+  
+
+  <div class="footer-container">
+    <div class="footer-nav">
+      <a href="" class="footer-nav-item">Biuletyn Informacji Publicznej</a>
+      <a href="" class="footer-nav-item">Regulamin strony</a>
+      <a href="" class="footer-nav-item">Deklaracja Dostępności</a>
+    </div>
+    <p class="footer-copyright">
+      © Galeria Toy Piano Wszystkie prawa zastrzeżone
+    </p>
+  </div>
+</footer>
+
+
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+        
+    </body>
+</html>

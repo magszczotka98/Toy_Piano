@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+<div class="pelle-page">
+    <div class="pelle-page-container">
+        <h1 class="pelle-page-title" style="color: #000">Pellentsequra</h1>
+        <div class="breadcrumbs">
+            <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;">Pellentsequra</span>
+        </div>
+
+        <div class="pelle-image-container">
+            <img class="pkp-post-card-image1" id="mainImage" src="/img/Main_Picture.png" />
+          </div>
+        
+          <div>
+            <img class="thumbnail" src="/img/Main_Picture.png" onclick="changeImage('/img/Main_Picture.png')" />
+            <img class="thumbnail" src="/img/blue.png" onclick="changeImage('/img/blue.png')" />
+          </div>
+          
+          <script>
+            function changeImage(imageSrc) {
+              document.getElementById('mainImage').src = imageSrc;
+            }
+          </script>
+        
+        
+        <div class="pelle-text-container">
+            <div class="pelle-topic">
+                <h1 class=""> Pellentsequra dolor sit Amet </h1>
+                <h1> XIX wiek </h1>
+            </div>
+
+            <div class="pelle-text1">
+                <h3 class=""> Okres </h3>
+                <p>XIX wiek</p>
+            </div>
+
+            <div class="pelle-text2">
+                <h3 class=""> Wymiary </h3>
+                <p>34 x 52 cm</p>
+            </div>
+
+            <div class="pelle-text2">
+                <h3 class=""> Autor </h3>
+                <p>Nieznany</p>
+            </div>
+        </div>
+
+        <div class="pelle-pelle">
+            <h1>
+                Lorem ipsum dolor sit amet consectetur. Sed posuere egestas neque vel malesuada lacus.
+            </h1>
+            <br>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Volutpat sed sed vestibulum faucibus etiam lobortis quis. Diam pharetra sagittis cras volutpat imperdiet ac semper ut. Dignissim leo eros morbi aliquam gravida imperdiet quisque egestas diam.
+            </p>
+            <br>
+
+            <p>
+                Tincidunt fames tellus imperdiet mauris. Consequat volutpat adipiscing lobortis donec nisl. Quam eu ac congue lorem libero est mauris diam vestibulum. Facilisi mattis integer viverra tincidunt adipiscing sodales integer. 
+            </p>
+
+            <p>
+                Facilisis imperdiet bibendum nisl nunc porta nisl. Nunc aliquet a tellus euismod eget sit sed turpis. Lectus euismod faucibus auctor dictum at eget amet et. Eu suspendisse aliquam maecenas tellus gravida nisi malesuada malesuada enim. Enim porta tempus ut nulla et. 
+            </p>
+
+        </div>
+
+        <div class="blog-post-content">
+            {{ .Content }}
+        </div>
+
+        <div class="blog-post-items">
+            <h1 class="blog-post-items-title">Pozostałe aktualności</h1>
+            <div class="blog-post-items-wrapper">
+
+                <a class="pelle-post-card" href="/pelle/Klawiatura" style="color:black">
+                    <img class="pelle-post-card-image1" src="/img/Main_Picture.png" />
+                    <h3 class="pelle-post-card-title1">Autor nieznany</h3>
+                    <h3 class="pelle-post-card-title2">Pellentesque</h3>
+                    <div class="pelle-post-card-date">WYSTAWA STAŁA</div>
+                    <div class="pelle-post-card-date">XIX WIEK</div>
+                </a>
+
+                <a class="pelle-post-card" href="/pelle/Klawiatura" style="color:black">
+                    <img class="pelle-post-card-image2" src="/img/Main_Picture.png" />
+                    <h3 class="pelle-post-card-title1">Autor nieznany</h3>
+                    <h3 class="pelle-post-card-title2">Pellentesque</h3>
+                    <div class="pelle-post-card-date">WYSTAWA STAŁA</div>
+                    <div class="pelle-post-card-date">XIX WIEK</div>
+                </a>
+
+                <a class="pelle-post-card" href="/pelle/Klawiatura" style="color:black">
+                    <img class="pelle-post-card-image2" src="/img/Main_Picture.png" />
+                    <h3 class="pelle-post-card-title1">Autor nieznany</h3>
+                    <h3 class="pelle-post-card-title2">Pellentesque</h3>
+                    <div class="pelle-post-card-date">WYSTAWA STAŁA</div>
+                    <div class="pelle-post-card-date">XIX WIEK</div>
+                </a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{ end }}
