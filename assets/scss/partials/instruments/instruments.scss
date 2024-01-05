@@ -1,0 +1,443 @@
+.instruments-page-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.instruments-page-breadcrumb h1{
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    width: 1106px;
+}
+
+.breadcrumbs {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.background-image{
+    width: 100%;
+    height: 424px;
+    top: 368px;
+
+}
+
+.instruments-text2-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-text2-container h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    width: 980px;
+}
+
+.instruments-text2-container p {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+}
+
+.instruments-text2-container p strong {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: black;
+}
+
+
+.instruments-text3-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.middle-image{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.middle-image image {
+    width: 781px;
+    height: 392px;
+}
+
+.text-image{
+    margin-left: 25%;
+    margin-right: 5%;
+}
+
+.text-image p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+}
+
+.instruments-text3-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+.instruments-text3-container h1{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+    height: 876px;
+}
+
+.instruments-text3-container p {
+    font-family: Lora;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.instruments-text3-container p strong {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+
+.instruments-text4-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-post-title{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-post-title h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.instruments-posts {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.instruments-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.instruments-posts-items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    margin-left: 30%;
+}
+
+.instruments-post-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+
+
+    &-image {
+        width: 100%;
+        height: 463px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+
+    &-title {
+        font-family: 'Lora';
+        font-size: 44px; 
+        color: #000000;
+        margin-bottom: 20px;
+        width: 387px;
+    }
+}
+
+.instruments-post-items-title {
+    font-family: 'Lora';
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.instruments-post-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.instruments-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.instruments-posts-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+.instruments-post-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    margin-left: 73px;
+
+}
+
+.instruments-post-card-image {
+    width: 100%;
+    height: 463px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}.instruments-page-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.instruments-page-breadcrumb h1{
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    width: 1106px;
+}
+
+.breadcrumbs {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.background-image{
+    width: 100%;
+    height: 424px;
+    top: 368px;
+
+}
+
+.instruments-text2-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-text2-container h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    width: 980px;
+}
+
+.instruments-text2-container p {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+}
+
+.instruments-text3-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.middle-image{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.middle-image image {
+    width: 781px;
+    height: 392px;
+}s
+
+.text-image{
+    margin-left: 65px;
+    margin-right: 5%;
+}
+
+.text-image p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+}
+
+.instruments-text3-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+.instruments-text3-container h1{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+    height: 876px;
+}
+
+.instruments-text3-container strong{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.instruments-text4-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-text4-container p{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+}
+
+.instruments-post-title{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.instruments-post-title h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.instruments-posts {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.instruments-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.instruments-posts-items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    margin-left: 30%;
+}
+
+.instruments-post-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+
+
+    &-image {
+        width: 100%;
+        height: 463px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+
+    &-title {
+        font-family: 'Lora';
+        font-size: 44px; 
+        color: #000000;
+        margin-bottom: 20px;
+        width: 387px;
+    }
+}
+
+.instruments-post-items-title {
+    font-family: 'Lora';
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.instruments-post-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.instruments-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.instruments-posts-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+.instruments-post-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    margin-left: 73px;
+
+}
+
+.instruments-post-card-image {
+    width: 100%;
+    height: 463px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+

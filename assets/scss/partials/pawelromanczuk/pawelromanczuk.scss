@@ -1,0 +1,202 @@
+.pawelromanczuk-page-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pawelromanczuk-page-breadcrumb h1{
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    width: 1106px;
+}
+
+.breadcrumbs {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.pawelromanczuk-background-image{
+    width: 100%;
+    height: 424px;
+    top: 368px;
+
+}
+
+.pawelromanczuk-text1-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.pawelromanczuk-text1-container h1{
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: left;
+    width: 407px;
+}
+
+.pawelromanczuk-text1-container p{
+    width: 226px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color: #B2BBC6;
+}
+
+.pawelromanczuk-text2-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.pawelromanczuk-text2-container h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    width: 980px;
+}
+
+.pawelromanczuk-text2-container p {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+}
+
+.pawelromanczuk-text3-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.pawelromanczuk-text3-container h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    width: 980px;
+    top: 1543px;
+    left: 205px;
+}
+
+.pawelromanczuk-text4-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.pawelromanczuk-text4-container p{
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    width: 980px;
+}
+
+.pawelromanczuk-post-title{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.pawelromanczuk-post-title h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pawelromanczuk-posts {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.pawelromanczuk-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pawelromanczuk-posts-items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    margin-left: 30%;
+}
+
+.pawelromanczuk-post-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+
+
+    &-image {
+        width: 100%;
+        height: 463px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+
+    &-title {
+        font-family: 'Lora';
+        font-size: 44px; 
+        color: #000000;
+        margin-bottom: 20px;
+        width: 387px;
+    }
+}
+
+.pawelromanczuk-post-items-title {
+    font-family: 'Lora';
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.pawelromanczuk-post-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pawelromanczuk-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pawelromanczuk-posts-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+.pawelromanczuk-post-items {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    margin-left: 73px;
+
+}
+
+.pawelromanczuk-post-card-image {
+    width: 100%;
+    height: 463px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}

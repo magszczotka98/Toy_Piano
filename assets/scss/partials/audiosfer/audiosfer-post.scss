@@ -1,0 +1,164 @@
+.audiosfer-topic-container{
+    margin-left: 10%;
+}
+
+.audiosfer-topic-container h1{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 950px;
+}
+
+.audiosfer-page-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.audiosfer-page-title h1{
+    margin-left: 20%;
+}
+
+.breadcrumbs {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555; 
+}
+  
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+  
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+.audiosfer-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 20%;
+    margin-left: 10%;
+}
+
+.audiosfer-info-container {
+    grid-column: 2;
+}
+
+.audiosfer-text-container {
+    grid-column: 1;
+}
+
+.audiosfer-text-container h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    width: 781px;
+}
+
+.audiosfer-text-container p {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 781px;
+}
+
+.audiosfer-info-container h3{
+    font-family:"Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    width: 400px;
+}
+
+.audiosfer-info-container p{
+    font-family:"Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    color: #CD4900;
+
+}
+
+.audiosfer-info-place h1{
+    font-family:"Poppins";
+    font-size: 20px;
+    width: 400px;
+}
+
+.audiosfer-info-place h2{
+    font-family:"Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    color: #CD4900;
+}
+
+
+.audiosfer-info-person h1{
+    font-family:"Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    width: 400px;
+}
+
+.audiosfer-info-person h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+
+}
+
+.audiosfer-info-category h1{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    width: 400px;
+}
+
+.audiosfer-info-category h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 400px;
+
+}
+
+.audiosfer-img-container{
+    margin-left: 9%;
+    padding: 15px;
+}
+
+.audiosfer-img-container img{
+    width: 781px;
+    height: 351px;
+}
+
+.audiosfer-img-text{
+    margin-left: 10%;
+}
+
+.audiosfer-img-text h1{
+   font-family:"Lora";
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 781px;
+}
+
+.audiosfer-img-text p{
+    font-family:"Lora";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 781px;
+}
