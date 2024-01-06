@@ -1,0 +1,153 @@
+.bookshelf-topic-container h1{
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: 700;
+    width: 1106px;
+    height: 77px;
+}
+
+.book-image-container{
+    margin-left: 10%;
+}
+
+.breadcrumbs {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555; 
+}
+
+.pkp-post-card-image1 image{
+    width: 781px;
+    height: 781px;
+
+}
+
+.thumbnail{
+    margin-top: 3%;
+    width: 177px;
+    height: 177px;
+}
+  
+.breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+  
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+.book-page-title {
+    color: black; 
+}
+  
+.book-page-container{
+  background-color: #FFFFFF;
+}
+
+.book-page-title{
+    size:64px;
+    font-family: "Poppins";
+    font-size: 700;
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #555;
+  padding-bottom: 20px;
+}
+
+.breadcrumbs a {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.book-text-container {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.book-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-book-container{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.book-book-container h1{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    width: 781px;
+}
+
+.book-book-container p{
+    font-family: "Lora";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 781px;
+}
+
+.book-post-items {
+    margin-left: 10%;
+}
+
+
+.book-post-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5%; 
+}
+
+.book-post-card{
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.book-post-card img {
+    width: 373.33px;
+    height: 312px;
+}
+
+.book-post-card-title{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    width: 147px;
+
+}
+
+.book-post-card-title2{
+    font-family: "Lora";
+    font-size: 44px;
+    font-weight: 500;
+    text-align: left;
+    width: 314px;
+
+
+}
+
+
+

@@ -38,7 +38,6 @@
 
 /* About */
 @import "partials/about/about-post.scss";
-@import "partials/about/historia-post.scss";
 /* End About */
 
 /* library */
@@ -72,3 +71,15 @@
 /* audio */ 
 @import "partials/audio/audio.scss";
 /* End audio*/
+
+/* Newaudio */
+@import "partials/newaudio/newaudio.scss";
+/* End newaudio*/
+
+/* bookshelf */
+@import "partials/bookshelf/bookshelf.scss";
+/* End bookshelf */
+
+/* book */
+@import "partials/book/book.scss";
+/* End book */

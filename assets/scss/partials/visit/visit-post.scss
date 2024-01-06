@@ -1,3 +1,20 @@
+.visit-topic-container{
+  margin-left: 10%;
+}
+
+.visit-topic-container h1{
+  font-family: 'Poppins';
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+  width: 1106px;
+  height: 77px;
+}
+
+.visit-page-container{
+  margin-left: 10%;
+}
+
 .breadcrumbs {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
@@ -31,7 +48,7 @@
     font-size: 700;
 }
 
-.breadcrumbs {
+.breadcrumbs1 {
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -39,14 +56,14 @@
   padding-bottom: 20px;
 }
 
-.breadcrumbs a {
+.breadcrumbs1 a {
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: black;
 }
 
-.breadcrumbs a:hover {
+.breadcrumbs1 a:hover {
   text-decoration: underline;
   color: black;
 }
@@ -55,26 +72,22 @@
   color: #888;
 }
 
-.visit-page-container {
-  background-color: #FFFFFF;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.visit-page::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.visit-posts-first {
+.visit-posts-image {
+  margin-right: 5%;
+  margin-left: 10%;
+  margin-top: 3%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(00px, 1fr));
+  gap: 22% ;
+}
+
+.visit-post-card {
+  text-decoration: none; 
+  color: black;
+
 }
 
 .visit-post-card-image {
-  width: 576px;
   height: 392px;
 }
 
@@ -83,73 +96,97 @@
   padding-top: 5px; 
 }
 
-.visit-post-card-title1 h3 {
-  font-family: Lora;
+.visit-post-card-title1{
+  font-family: 'Lora';
   font-size: 44px;
   font-weight: 500;
 }
 
 .visit-post-card-date1 {
-  font-family: Poppins;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.visit-text-card-image{
+  width: 482px;
+  height: 30px;
+}
+
+.strong{
+  font-family: 'Poppins';
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
 }
 
-.visit-post-card-image[src$="/img/img1.png"] {
-  width: 576px;
+.visit-post-card-image {
   height: 392px;
 }
 
-.visit-post-card-title2 h3 {
-  font-family: Lora;
+.visit-post-card-image1{
+  height: 392px;
+}
+
+
+.visit-post-card-title2{
+  font-family: 'Lora';
   font-size: 44px;
   font-weight: 500;
 }
 
-.visit-post-card-date2 {
-  font-family: Poppins;
+.visit-post-card-date2{
+  font-family: 'Poppins';
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
+}
+
+.bottom-post-map {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  
 }
 
 .visit-posts-map {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row; 
 }
 
 .visit-post-card-image3 {
   width: 558px;
   height: 384px;
+
 }
 
 .visit-post-card-details {
   margin-left: 30px; 
 }
 
-.visit-post-card-title3 h1 {
-  font-family: Lora;
+.visit-post-card-title3 {
+  font-family: 'Lora';
   font-size: 44px;
   font-weight: 500;
 }
 
 .visit-post-card-date3 {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-weight: 400;
 }
 
 .visit-post-card-title4 h2 {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-weight: 600;
 }
 
 .visit-post-card-date4 {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-weight: 400;
 }

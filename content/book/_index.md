@@ -1,0 +1,6 @@
+---
+title: book
+type: books
+---
+
+

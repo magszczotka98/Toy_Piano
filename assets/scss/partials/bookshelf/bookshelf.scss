@@ -17,57 +17,40 @@
     color: black;
 }
 
-.audio-topic-container{
+.bookshelf-topic-container{
     margin-top: 2%;
     margin-left: 10%;
 }
 
-.audio-topic-container h1{
+.bookshelf-topic-container h1{
     font-family: "Poppins";
     font-size: 64px;
     font-weight: 700;
     width: 312px;
 }
 
-.audio-post-card{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #ccc;
-}
-
-.audio-post-card1{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #ccc;
-}
-
-.audio-post-card2{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #ccc;
-}
-
 .container{
     margin-left: 10%;
 }
 
-.audio-images-container {
+.bookshelf-images-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 32px;
+
 }
 
-.audio-post-card-title1 {
+.bookshelf-post-card-title1 {
     margin: 0;
 }
 
-.audio-post-card-type {
+.bookshelf-post-card-type {
     color: #555;
     font-size: 14px;
 }
 
 
-.audio-post-card h3{
+.bookshelf-post-card h3{
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
@@ -75,13 +58,13 @@
 }
 
 
-.audio-post-card h1{
+.bookshelf-post-card h1{
     font-family: Lora;
     font-size: 44px;
     font-weight: 500;
 }
 
-.audio-post-card-type{
+.bookshelf-post-card-type{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -92,43 +75,58 @@
     margin-left: 10%;
 }
 
-.audio-images-container2 {
+.bookshelf-images-container2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 32px;
+    gap: 2px;
 }
 
-.audio-images-container2 img {
-    width: 100%; 
-    height: auto;
+.bookshelf-images-container2 img {
+    height: 424px;
 
 }
 
-.audio-post-card2,
-.audio-post-card3 {
-    width: calc(50% - 10px); 
+.bookshelf-post-card1{
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
 }
 
-.audio-post-card2 img,
-.audio-post-card3 img {
+.bookshelf-post-card2{
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bookshelf-post-card{
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.bookshelf-post-card2 img{
+    height: 424px;
+
+}
+
+
+.bookshelf-post-card3 img {
     width: 100%; 
     height: auto; 
 }
 
-.audio-post-card2 h1,
-.audio-post-card3 h1 {
+.bookshelf-post-card2 h1,
+.bookshelf-post-card3 h1 {
     width: 100%; 
 }
 
-.audio-post-card2 h3,
-.audio-post-card3 h3 {
+.bookshelf-post-card2 h3,
+.bookshelf-post-card3 h3 {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
 }
 
-.audio-post-card2 h1,
-.audio-post-card3 h1 {
+.bookshelf-post-card2 h1,
+.bookshelf-post-card3 h1 {
     font-family: Lora;
     font-size: 44px;
     font-weight: 500;
@@ -136,23 +134,23 @@
     margin-top: 10px; 
 }
 
-.audio-post-card2 .audio-post-card-type,
-.audio-post-card3 .audio-post-card-type {
+.bookshelf-post-card2 .bookshelf-post-card-type,
+.bookshelf-post-card3 .bookshelf-post-card-type {
     color: #555;
     font-size: 14px;
 }
 
-.audio-post-card-image4{
+.bookshelf-post-card-image4{
     width: 779px;
     height: 424px;
 
 }
 
-.audio-post-card-image1,
-.audio-post-card-image2,
-.audio-post-card-image3,
-.audio-post-card-image6,
-.audio-post-card-image5 {
+.bookshelf-post-card-image1,
+.bookshelf-post-card-image2,
+.bookshelf-post-card-image3,
+.bookshelf-post-card-image6,
+.bookshelf-post-card-image5 {
     width: 373.33px;
     height: 424px;
 }
@@ -161,46 +159,46 @@
     margin-left: 10%;
 }
 
-.audio-images-container3 {
+.bookshelf-images-container3 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 32px;
 }
 
-.audio-post-card {
-    margin-bottom: 32px; /* Add margin between audio-post-card elements */
+.bookshelf-post-card {
+    margin-bottom: 32px; /* Add margin between bookshelf-post-card elements */
 }
 
-.audio-post-card-title1 {
-    margin: 0;
+.bookshelf-post-card-title1 {
+    
 }
 
-.audio-post-card-type {
+.bookshelf-post-card-type {
     color: #555;
     font-size: 14px;
 }
 
-.audio-post-card h3 {
+.bookshelf-post-card h3 {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
     width: 147px;
 }
 
-.audio-post-card h1 {
+.bookshelf-post-card h1 {
     font-family: Lora;
     font-size: 44px;
     font-weight: 500;
 }
 
-.audio-post-card-type {
+.bookshelf-post-card-type {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     width: 125px;
 }
 
-.audio-post-card-image6 {
+.bookshelf-post-card-image6 {
     width: 373.33px;
     height: 424px;
 }

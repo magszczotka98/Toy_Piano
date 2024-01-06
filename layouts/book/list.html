@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+<div class="bookshelf-page">
+    <div class="bookshelf-topic-container">
+        <h1 class="bookshelf-page-title" style="color: #000">Tytuł książki</h1>
+    </div><br>
+    <div class="bookshelf-page-container">
+        <div class="breadcrumbs">
+            <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;">Tytuł książki</span>
+        </div>
+    </div>
+
+        <div class="book-image-container">
+            <img class="pkp-post-card-image1" id="mainImage" src="/img/Main_Picture.png" />
+            <div>
+                <img class="thumbnail" src="/img/Main_Picture.png" onclick="changeImage('/img/Main_Picture.png')" />
+                <img class="thumbnail" src="/img/blue.png" onclick="changeImage('/img/blue.png')" />
+            </div>
+            <script>
+                function changeImage(imageSrc) {
+                    document.getElementById('mainImage').src = imageSrc;
+                }
+            </script>
+            <br>
+        </div>
+
+        <div class="book-text-container">
+            <div class="book-topic">
+                <h1 class=""> Tytuł książki </h1><br>
+                <p> Jan Kowlaski <p>
+            </div>
+            <br>
+            <div class="book-text1">
+                <h3 class=""> Wydawnictwo </h3><br>
+                <p> Nazwa wydawnictwa </p><br>
+            </div>
+
+            <div class="book-text2">
+                <h3 class=""> Rok wydania </h3><br>
+                <p> 2023 </p><br>
+            </div>
+
+            <div class="book-text2">
+                <h3 class=""> Liczba stron </h3><br>
+                <p> 303 </p><br>
+            </div>
+        </div> <br>
+
+        <br>
+
+        <div class="book-book-container">
+            <h1>
+                Lorem ipsum dolor sit amet consectetur. Sed posuere egestas neque vel malesuada lacus.
+            </h1> <br><br>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Volutpat sed sed vestibulum faucibus etiam lobortis quis. Diam pharetra sagittis cras volutpat imperdiet ac semper ut. Dignissim leo eros morbi aliquam gravida imperdiet quisque egestas diam.
+            </p>
+            <br>
+            <p>
+                Tincidunt fames tellus imperdiet mauris. Consequat volutpat adipiscing lobortis donec nisl. Quam eu ac congue lorem libero est mauris diam vestibulum. Facilisi mattis integer viverra tincidunt adipiscing sodales integer.
+            </p>
+            <br>
+            <p>
+                Facilisis imperdiet bibendum nisl nunc porta nisl. Nunc aliquet a tellus euismod eget sit sed turpis. Lectus euismod faucibus auctor dictum at eget amet et. Eu suspendisse aliquam maecenas tellus gravida nisi malesuada malesuada enim. Enim porta tempus ut nulla et.
+            </p>
+
+        </div>
+
+        <div class="book-post-items">
+            <h1 class="book-post-items-title">Zobacz także</h1><br>
+            <div class="book-post-items-wrapper">
+
+                <a class="book-post-card" href="/audio/" style="color:black"><br>
+                    <img class="book-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="book-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="book-post-card-title2">Tytuł nagrania</h1><br>
+                </a>
+                
+
+                <a class="book-post-card" href="/audio/" style="color:black"><br>
+                    <img class="book-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="book-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="book-post-card-title2">Tytuł nagrania</h1><br>
+                </a>
+                
+                <a class="book-post-card" href="/audio/" style="color:black"><br>
+                    <img class="book-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="book-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="book-post-card-title2">Tytuł nagrania</h1><br>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
