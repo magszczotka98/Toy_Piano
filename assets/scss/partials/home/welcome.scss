@@ -1,8 +1,26 @@
 .welcome {
+    margin-top: 5px;
     position: relative;
     height: calc(100vh - 120px);
     background-color: #FFFFFF; 
 }
+
+.welcome-container h1{
+  font-family: 'Lora';
+  font-size: 96px;
+  font-weight: 500;
+  width: 503px;
+  margin-left: 30px;
+}
+
+.welcome-paragraph{
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 400;
+  width: 456px;
+  margin-left: 30px;
+}
+
 
 .welcome-container {
     position: relative;
@@ -14,44 +32,18 @@
     flex-direction: column;
     align-items: flex-start;
     z-index: 1;
+    margin-top: 2px;
 }
 
-.welcome-title {
-    font-size: 96px;
-    font-family: "Lora";
-    font-weight: 500;
-    color: black;
-    margin: 0;
-    margin-left: 30px;
-  }
-  
-  .welcome-title2 {
-    font-size: 96px;
-    font-family: "Lora";
-    font-weight: 500;
-    color: black;
-    margin: 0;
-    margin-left: 30px;
-  }
-  
-  
-  .welcome-paragraph {
-    font-size: 24px;
-    font-family: "Poppins";
-    font-weight: 400;
-    color: #000000;
-    margin-bottom: 30px;
-    margin-left:  30px;
-  }
-  
-  .welcome-paragraph2 {
-    font-size: 24px;
-    font-family: "Poppins";
-    font-weight: 400;
-    color: #000000;
-    margin-bottom: 30px;
-    margin-left: 30px;
-  }
+.welcome-paragraph {
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-left:  27px;
+}
+
   
   
 .welcome-cover {

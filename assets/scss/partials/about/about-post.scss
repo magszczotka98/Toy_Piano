@@ -33,6 +33,7 @@
     font-weight: 700;
     width: 1106px;
     height: 77px;
+    margin-left: -30%;
 }
 
 .about-posts-items {
@@ -64,6 +65,7 @@
         size: 54px;
         color: #000000;
         margin-bottom: 20px;
+        text-align: left;
     }
 
     &-date {
@@ -71,6 +73,7 @@
         font-size: 500;
         size: 20px;
         color: black;
+        text-align: left;
     }
     
 }

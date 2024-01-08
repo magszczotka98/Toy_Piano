@@ -35,3 +35,50 @@
     font-weight: 500;
     color: #000000;
   }
+
+  .header-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 50px; /* Dodaj odstęp między elementami */
+    align-items: center; /* Wyśrodkuj elementy w pionie */
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.header-grid-icon-container {
+  display: flex; /* Ustaw flexbox, aby elementy były obok siebie */
+  align-items: center; /* Wyśrodkuj elementy w pionie */
+  gap: 10px; /* Dodaj odstęp między elementami */
+  margin-top: 2%;
+  margin-left: 80%;
+}
+
+.header-special-buttons {
+  display: flex;
+  gap: 10px; /* Dodaj odstęp między przyciskami specjalnymi */
+}
+
+.header-special-buttons img {
+  max-width: 30px; /* Ustaw maksymalną szerokość ikon */
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav-item {
+    margin-right: 10px; /* Dodaj odstęp między elementami nawigacji */
+}
+
+
+.header-special-buttons img {
+    max-width: 30px; /* Ustaw maksymalną szerokość ikon */
+}
+
+/* Dodaj pozostałe style dla innych elementów, takie jak .header-logo-container, .header-logo itp. */
+

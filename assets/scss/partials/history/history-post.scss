@@ -5,28 +5,30 @@
 
 .history-page-breadcrumb h1{
     margin-left: 10%;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 64px;
     font-weight: 700;
     width: 1106px;
+    margin-left: -17%;
 }
 
-.breadcrumbs {
+.history-breadcrumbs {
     margin-left: 10%;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #555;
+    margin-left: -69%;
 }
 
-.breadcrumbs a {
+.history-breadcrumbs a {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
 
-.breadcrumbs a:hover {
+.history-breadcrumbs a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -35,10 +37,11 @@
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 5%;
+    text-align: left;
 }
 
 .history-text1-container h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-weight: 600;
     width: 980px;
@@ -46,7 +49,7 @@
 
 .history-text1-container p{
     width: 980px;
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
 }
@@ -55,17 +58,18 @@
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 5%;
+    text-align: left;
 }
 
 .history-text2-container h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-weight: 600;
     width: 980px;
 }
 
 .history-text2-container p {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
@@ -78,9 +82,10 @@
 }
 
 .history-post-title h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 40px;
     font-weight: 600;
+    margin-left: -80%;
 
 
 }

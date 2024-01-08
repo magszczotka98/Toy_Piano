@@ -1,32 +1,142 @@
 {{ define "main" }}
 
 <div class="newaudio-page">
-    <div class="newaudio-topic-container">
-        <h1 class="newaudio-page-title" style="color: #000">Nagrania</h1>
+    <div class="newaudio-topic-container"><br>
+        <h1 class="newaudio-page-title" style="color: #000; margin-left: 10%;">Nagrania</h1>
     </div>
     <div class="newaudio-page-container">
-        <div class="breadcrumbs">
+        <div class="newaudio-breadcrumbs">
             <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;">Nagrania</span>
         </div>
     </div>
 
-    <div class="newaudio-image-container">
-        <img src="/img/blue2.png" alt="newaudio_img" />
+    <div class="newaudio-container">
+            <div class="newaudio-image-container">
+                <img src="/img/blue2.png" alt="newaudio_img" />
+            </div>
+        
+            <div class="newaudio-audio-info">
+                <div class="newaudio-type">
+                    <h1>NAGRANIE</h1>
+                </div>
+                <div class="newaudio-title">
+                    <h1>Tytuł nagrania</h1>
+                </div>
+                <div class="newaudio-title2">
+                    <div class="newaudio-title2-autor">
+                        JAN KOWALSKI
+                    </div>
+                    <p>
+                        TYTUŁ NAGRANIA
+                    </p>
+                    <p>
+                        3:03
+                    </p>
+                </div>
+                <br>
+                <div class="newaudio-player-container">
+                    <div class="container">
+                        <audio id="audioPlayer" controls></audio>
+                        <div class="playlist">
+                            <ul id="playlist">
+                                <li data-src="img/music/outroSound.mp3"></li>
+                            </ul>
+                        </div>
+                        <button id="toggleButton" onclick="togglePlayer()">Włącz / Wyłącz</button>
+                    </div>
+                    <script src="/layouts/newaudio/script.js"></script>
+                </div>
+            </div>
     </div>
 
-    
-
-    <div class="newaudio-player-container">
-
+    <br>
+    <div class="newaudio-container-grid">
+        <div class="newaudio-text-container">
+            <div class="newaudio-text-topic">
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur. Sed posuere egestas neque vel malesuada lacus.
+                </h1>
+            </div>
+        <br>
+            <div class="newaudio-text-topic2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Volutpat sed sed vestibulum faucibus etiam lobortis quis. Diam pharetra sagittis cras volutpat imperdiet ac semper ut. Dignissim leo eros morbi aliquam gravida imperdiet quisque egestas diam.
+                </p>
+            <br>
+                <p>
+                    Tincidunt fames tellus imperdiet mauris. Consequat volutpat adipiscing lobortis donec nisl. Quam eu ac congue lorem libero est mauris diam vestibulum. Facilisi mattis integer viverra tincidunt adipiscing sodales integer. 
+                </p>
+             <br>
+                <p>
+                    Facilisis imperdiet bibendum nisl nunc porta nisl. Nunc aliquet a tellus euismod eget sit sed turpis. Lectus euismod faucibus auctor dictum at eget amet et. Eu suspendisse aliquam maecenas tellus gravida nisi malesuada malesuada enim. Enim porta tempus ut nulla et
+                </p>
+            </div>
+        </div>
+            
+        <div class="newaudio-info-container">
+            <div class="info-music-topic">
+                <h1>Gatunek</h1>
+            </div>
+            <div class="info-music-type">
+                <h1>Muzyka klasyczna</h1>
+            </div>
+                <br>
+            <div class="info-music-year">
+                <h1>Rok nagrania</h1>
+            </div>
+            <div class="info-music-date">
+                <h1>2023</h1>
+            </div>
+            
+            <br><br>
+            
+            <div class="info-music-topic2">
+                <h1>Producent</h1>
+            </div>
+            <div class="info-music-type3">
+                <h1>Paweł Romańczuk</h1>
+            </div>
+            <br>
+            <div class="info-music-topic2">
+                <h1>Dystrubutor</h1>
+            </div>
+                <div class="info-music-type3">
+            <h1>Wystawa czasowa</h1>
+            </div>
+        </div>
+        <br>
     </div>
+    </div>
+    <br>
+    <div class="newaudio-post-items-title" style="margin-left: 10%">
+        <h1 class="newaudio-post-items-title">Zobacz także</h1><br>
+    </div>
+    <br>
+    <div class="newaudio-post-items">
+            <div class="newaudio-post-items-wrapper">
 
+                <a class="newaudio-post-card" href="/audio/" style="color:black"><br>
+                    <img class="newaudio-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="newaudio-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="newaudio-post-card-title2">Tytuł nagrania</h1><br>
+                    <div class="audio-post-card-type">JĘZYK POLSKI</div>
+                </a>
+                
 
-
-
-
-
-
-
-
-
+                <a class="newaudio-post-card" href="/audio/" style="color:black"><br>
+                    <img class="newaudio-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="newaudio-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="newaudio-post-card-title2">Tytuł nagrania</h1><br>
+                    <div class="audio-post-card-type">JĘZYK POLSKI</div><br>
+                </a>
+                
+                <a class="newaudio-post-card" href="/audio/" style="color:black"><br>
+                    <img class="newaudio-post-card-image1" src="/img/blue.png" /><br>
+                    <h3 class="newaudio-post-card-title1">Jan Kowalski</h3><br>
+                    <h1 class="newaudio-post-card-title2">Tytuł nagrania</h1><br>
+                    <div class="audio-post-card-type">JĘZYK POLSKI</div><br>
+                </a>
+            </div>
+        </div>
+        <br>
 {{ end }}

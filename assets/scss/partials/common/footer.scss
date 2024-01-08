@@ -20,8 +20,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 79px;
+  margin-right: 7%;
+  border-bottom: 1px solid #ccc;
 }
 
 .visit-title {
@@ -40,6 +41,7 @@
   align-items: flex-start;
   margin-left: 7%;
   margin-right: 7%;
+  border-bottom: 1px solid #ccc;
   
 }
 
@@ -47,10 +49,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #ccc;
   margin-left: 20px;
   padding-bottom: 3%;
   padding-top: 0px;
+  margin-left: -30px;
+  margin-right: 33%;
 }
 
 
@@ -88,11 +91,12 @@
 
 .opening-hours,
 .adres-title {
-  flex: 1;
   display: flex;
   flex-direction: column;
   margin-top: 3%;
+  text-align: left;
 }
+
 
 .opening-hours h1,
 .adres-title h1 {
@@ -149,7 +153,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-left: 15%;
   margin-right: 15%;
   position: relative; 
   margin-bottom: 3%;
@@ -185,13 +188,15 @@
   margin-right: 30%;
   position: relative; 
   z-index: 3; 
+  margin-left: 20%
+  
 }
 
 .links-shorts{
   display: flex;
   flex-direction: column;
   color: black;
-  padding-top: 17px;
+  padding-top: 45px;
   padding-right: 25px;
 }
 
@@ -201,6 +206,7 @@
   font-size: 20px;
   font-family: "Poppins";
   font-weight: 500;
+  text-align: justify;
 }
 
 .links-shorts a{
@@ -226,8 +232,7 @@ padding-left: 45%;
 }
 
 .links-webs a{
-  padding-top: 20px;
-  padding-right: 30px;
+  display: flex;
   color: black;
   font-size: 16px;
   font-family: "Poppins";

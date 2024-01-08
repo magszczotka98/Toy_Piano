@@ -1,0 +1,233 @@
+
+.newaudio-page-container{
+    margin-left: 10%;
+}
+
+.newaudio-breadcrumbs {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin-left: -87%;
+}
+
+
+.newaudio-breadcrumbs a {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+  
+.newaudio-breadcrumbs a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+.newaudio-topic-container{
+    font-family: 'Poppins';
+    size: 70px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.newaudio-page-container{
+    margin-left: 10%;
+}
+
+/*odtwarzacz*/
+
+
+.newaudio-image-container img{
+    width: 377px;
+    height: 400px;
+}
+
+.newaudio-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.newaudio-image-container {
+    grid-column: 1 / 2;
+}
+
+.newaudio-audio-info {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.newaudio-title2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+}
+
+/*tekst odtwarzacza*/
+.newaudio-type h1{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.newaudio-title h1{
+    font-family: 'Lora';
+    font-size: 56px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.newaudio-title2-autor{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.newaudio-title2 p{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/*tekst pod odtwarzaczem*/
+
+.newaudio-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13%;
+    margin-left: 10%;
+    margin-right: 7%;
+}
+
+.newaudio-text-topic {
+    grid-column: span 2;
+}
+
+.newaudio-text-container{
+    width: 781px;
+    height: 538px;
+}
+
+.newaudio-text-topic h1{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.newaudio-text-topic2 p{
+    font-family: 'Lora';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.info-music-topic h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.info-music-type h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #CD4900;
+}
+
+.info-music-year h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.info-music-date h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #CD4900;
+}
+
+.info-music-topic2 h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+    height: 28px;
+}
+
+.info-music-type3 h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    width: 400px;
+    height: 28px;
+}
+
+/*Zobacz także*/
+
+.newaudio-post-items-title h1{
+    text-align: left;
+    margin-right: 10%;
+}
+
+.newaudio-post-itemsh1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 7%;
+}
+
+.newaudio-post-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5%; 
+    margin-left: 10%;
+    margin-right: 7%;
+}
+
+.newaudio-post-card{
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.newaudio-post-card img {
+    width: 373.33px;
+    height: 312px;
+}
+
+.newaudio-post-card-title{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    width: 147px;
+}
+
+.newaudio-post-card-title2{
+    font-family: "Lora";
+    font-size: 44px;
+    font-weight: 500;
+    text-align: left;
+    width: 314px;
+}

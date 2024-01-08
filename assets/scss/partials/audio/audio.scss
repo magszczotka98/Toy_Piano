@@ -54,7 +54,7 @@
 .audio-images-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 32px;
+    gap: 45px;
 }
 
 .audio-post-card-title1 {
@@ -68,7 +68,7 @@
 
 
 .audio-post-card h3{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     width: 147px;
@@ -76,13 +76,14 @@
 
 
 .audio-post-card h1{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
+    text-align: left;
 }
 
 .audio-post-card-type{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 500;
     width: 125px;
@@ -122,14 +123,14 @@
 
 .audio-post-card2 h3,
 .audio-post-card3 h3 {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
 }
 
 .audio-post-card2 h1,
 .audio-post-card3 h1 {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
     text-align: left;
@@ -181,20 +182,20 @@
 }
 
 .audio-post-card h3 {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     width: 147px;
 }
 
 .audio-post-card h1 {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
 }
 
 .audio-post-card-type {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 500;
     width: 125px;

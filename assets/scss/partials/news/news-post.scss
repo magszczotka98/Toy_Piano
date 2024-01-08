@@ -17,6 +17,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: left;
+
 }
 
 .topic-container {
@@ -77,21 +79,21 @@
     padding: 20px;
 }
 
-.breadcrumbs {
+.news-page-breadcrumbs {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #555;
 }
 
-.breadcrumbs a {
+.news-page-breadcrumbs a {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
 
-.breadcrumbs a:hover {
+.news-page-breadcrumbs a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -139,7 +141,7 @@
 }
 
 .news-post-card-title {
-    font-size: 44px;
+    font-size: 28px;
 }
 
 .news-post-card-title1,

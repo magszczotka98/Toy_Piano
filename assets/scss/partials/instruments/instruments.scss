@@ -5,7 +5,7 @@
 
 .instruments-page-breadcrumb h1{
     margin-left: 10%;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 64px;
     font-weight: 700;
     width: 1106px;
@@ -45,21 +45,21 @@
 }
 
 .instruments-text2-container h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-weight: 600;
     width: 980px;
 }
 
 .instruments-text2-container p {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
 }
 
 .instruments-text2-container p strong {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -92,7 +92,7 @@
 }
 
 .text-image p{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
     height: 21px;
@@ -106,7 +106,7 @@
 
 
 .instruments-text3-container h1{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
@@ -114,7 +114,7 @@
 }
 
 .instruments-text3-container p {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.01em;
@@ -122,7 +122,7 @@
 }
 
 .instruments-text3-container p strong {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -144,7 +144,7 @@
 }
 
 .instruments-post-title h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 40px;
     font-weight: 600;
 }
@@ -233,10 +233,11 @@
 
 .instruments-page-breadcrumb h1{
     margin-left: 10%;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 64px;
     font-weight: 700;
     width: 1106px;
+    text-align: left;
 }
 
 .breadcrumbs {
@@ -245,6 +246,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #555;
+    text-align: left;
 }
 
 .breadcrumbs a {
@@ -270,17 +272,18 @@
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 5%;
+    text-align: left;
 }
 
 .instruments-text2-container h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-weight: 600;
     width: 980px;
 }
 
 .instruments-text2-container p {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
@@ -296,6 +299,7 @@
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: left;
 }
 
 .middle-image image {
@@ -309,10 +313,12 @@
 }
 
 .text-image p{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
     height: 21px;
+    text-align: left;
+    margin-left: 4%;
 }
 
 .instruments-text3-container{
@@ -323,7 +329,7 @@
 
 
 .instruments-text3-container h1{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
@@ -331,7 +337,7 @@
 }
 
 .instruments-text3-container strong{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -344,7 +350,7 @@
 }
 
 .instruments-text4-container p{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 20px;
     font-weight: 400;
     width: 980px;
@@ -357,9 +363,10 @@
 }
 
 .instruments-post-title h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 40px;
     font-weight: 600;
+    text-align: left;
 }
 
 .instruments-posts {
@@ -407,6 +414,7 @@
     font-size: 36px;
     color: #000000;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .instruments-post-card a {

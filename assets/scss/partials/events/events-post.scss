@@ -2,23 +2,26 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: left;
 }
 
-.breadcrumbs {
+.events-breadcrumbs {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #555;
+    text-align: left;
+    
 }
 
-.breadcrumbs a {
+.events-breadcrumbs a {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
 
-.breadcrumbs a:hover {
+.events-breadcrumbs a:hover {
     text-decoration: underline;
     color: black;
 }

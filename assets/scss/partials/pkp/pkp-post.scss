@@ -49,6 +49,7 @@
     font-size: 32px;
     font-weight: 600;
     width: 980px;
+    text-align: left;
 }
 
 .pkp-text-container p{
@@ -57,6 +58,7 @@
     font-weight: 400;
     line-height: 20px;
     width: 980px;
+    text-align: left;
 }
 
 .pkp-text-container h4{
@@ -65,6 +67,7 @@
     font-weight: 400;
     line-height: 30px;
     width: 980px;
+    text-align: left;
 }
 
 .pkp-text-container a{
@@ -76,6 +79,8 @@
 
 .pkp-post-items-title{
     margin-left: 10%;
+    text-align: left
+
 }
 
 
@@ -159,11 +164,13 @@
 
 .pkp-post-card-title {
     font-size: 44px;
+    
 }
 
 .pkp-post-card-title1,
 .pkp-post-card-title2 {
     font-size: 28px;
+    text-align: left;
 }
 
 .pkp-post-card-title3 {
