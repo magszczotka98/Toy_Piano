@@ -1,18 +1,19 @@
-.breadcrumbs {
+.about-breadcrumbs1 {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #555; 
+    margin-left: -86%;
 }
   
-.breadcrumbs a {
+.about-breadcrumbs1 a {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
   
-.breadcrumbs a:hover {
+.about-breadcrumbs1 a:hover {
     text-decoration: underline;
     color: black; 
 }
@@ -51,6 +52,7 @@
     padding: 40px;
     background-color: #ffffff;
     border-bottom: 1px solid #ccc;
+    margin-left: -5%;
 
     &-image {
         width: 100%;
@@ -61,7 +63,7 @@
 
     &-title {
         font-family: 'Lora';
-        font-size: 500;
+        font-size: 600;
         size: 54px;
         color: #000000;
         margin-bottom: 20px;
@@ -70,7 +72,7 @@
 
     &-date {
         font-family: 'Poppins';
-        font-size: 500;
+        font-size: 600;
         size: 20px;
         color: black;
         text-align: left;
@@ -100,4 +102,18 @@
         size: 20px;
         color: black;
     }
+}
+
+.about-post-card-title{
+    font-family: 'Lora';
+    font-size: 44px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.about-post-card-date{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
 }

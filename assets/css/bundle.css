@@ -60,27 +60,27 @@ a {
 .header-grid-container {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  gap: 50px; /* Dodaj odstęp między elementami */
-  align-items: center; /* Wyśrodkuj elementy w pionie */
+  gap: 50px;
+  align-items: center;
   margin-top: 2%;
   margin-left: 2%;
 }
 
 .header-grid-icon-container {
-  display: flex; /* Ustaw flexbox, aby elementy były obok siebie */
-  align-items: center; /* Wyśrodkuj elementy w pionie */
-  gap: 10px; /* Dodaj odstęp między elementami */
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-top: 2%;
   margin-left: 80%;
 }
 
 .header-special-buttons {
   display: flex;
-  gap: 10px; /* Dodaj odstęp między przyciskami specjalnymi */
+  gap: 10px;
 }
 
 .header-special-buttons img {
-  max-width: 30px; /* Ustaw maksymalną szerokość ikon */
+  max-width: 30px;
 }
 
 .header-nav {
@@ -92,14 +92,13 @@ a {
 }
 
 .header-nav-item {
-  margin-right: 10px; /* Dodaj odstęp między elementami nawigacji */
+  margin-right: 10px;
 }
 
 .header-special-buttons img {
-  max-width: 30px; /* Ustaw maksymalną szerokość ikon */
+  max-width: 30px;
 }
 
-/* Dodaj pozostałe style dla innych elementów, takie jak .header-logo-container, .header-logo itp. */
 .footer {
   background-color: #FFFFFF;
 }
@@ -1209,11 +1208,11 @@ body {
 
 .visit-page-title {
   size: 64px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 700;
 }
 
-.breadcrumbs1 {
+.visit-breadcrumbs1 {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -1222,14 +1221,14 @@ body {
   margin-left: -87%;
 }
 
-.breadcrumbs1 a {
+.visit-breadcrumbs1 a {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: black;
 }
 
-.breadcrumbs1 a:hover {
+.visit-breadcrumbs1 a:hover {
   text-decoration: underline;
   color: black;
 }
@@ -1265,6 +1264,7 @@ body {
   font-family: "Lora";
   font-size: 44px;
   font-weight: 500;
+  text-align: left;
 }
 
 .visit-post-card-date1 {
@@ -1272,6 +1272,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  text-align: left;
 }
 
 .visit-text-card-image {
@@ -1298,6 +1299,7 @@ body {
   font-family: "Lora";
   font-size: 44px;
   font-weight: 500;
+  text-align: left;
 }
 
 .visit-post-card-date2 {
@@ -1305,6 +1307,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
+  text-align: left;
 }
 
 .bottom-post-map {
@@ -1334,36 +1337,40 @@ body {
   font-family: "Lora";
   font-size: 44px;
   font-weight: 500;
+  text-align: left;
 }
 
 .visit-post-card-date3 {
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 400;
+  text-align: left;
 }
 
-.visit-post-card-title4 h2 {
+.visit-post-card-title4 {
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
 }
 
 .visit-post-card-date4 {
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 400;
+  text-align: left;
 }
 
 /* End Visit*/
 /* events */
-.events-page-container {
+.event-page-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   text-align: left;
 }
 
-.events-breadcrumbs {
+.event-breadcrumbs {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -1371,19 +1378,19 @@ body {
   text-align: left;
 }
 
-.events-breadcrumbs a {
+.event-breadcrumbs a {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: black;
 }
 
-.events-breadcrumbs a:hover {
+.event-breadcrumbs a:hover {
   text-decoration: underline;
   color: black;
 }
 
-.events-posts-items {
+.event-posts-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 20px;
@@ -1391,57 +1398,57 @@ body {
   text-align: left;
 }
 
-.events-post-card {
+.event-post-card {
   display: block;
   border-bottom: 1px solid #ccc;
 }
 
-.events-post-card-image1 {
+.event-post-card-image1 {
   width: 576px;
   height: 384px;
 }
 
-.events-post-card-image2 {
+.event-post-card-image2 {
   width: 272px;
   height: 384px;
 }
 
-.events-post-card-image3 {
+.event-post-card-image3 {
   width: 1184px;
   height: 518px;
 }
 
-.events-post-card-type,
-.events-post-card-type3 {
+.event-post-card-type,
+.event-post-card-type3 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
 
-.events-post-card-title,
-.events-post-card-title1,
-.events-post-card-title2,
-.events-post-card-title3 {
+.event-post-card-title,
+.event-post-card-title1,
+.event-post-card-title2,
+.event-post-card-title3 {
   font-family: "Lora", serif;
   font-weight: 500;
 }
 
-.events-post-card-title {
+.event-post-card-title {
   font-size: 44px;
 }
 
-.events-post-card-title1,
-.events-post-card-title2 {
+.event-post-card-title1,
+.event-post-card-title2 {
   font-size: 28px;
 }
 
-.events-post-card-title3 {
+.event-post-card-title3 {
   font-size: 60px;
   color: white;
 }
 
-.events-post-card-date,
-.events-post-card-date2 {
+.event-post-card-date,
+.event-post-card-date2 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -1451,21 +1458,21 @@ body {
   color: #666;
 }
 
-.events-post-card-date2,
-.events-post-card-type3,
-.events-post-card-title3 {
+.event-post-card-date2,
+.event-post-card-type3,
+.event-post-card-title3 {
   color: white;
 }
 
 /* gradient na całym obrazie */
-.events-post-card-image3 {
+.event-post-card-image3 {
   width: 1184px;
   height: 518px;
   position: relative;
   overflow: hidden;
 }
 
-.events-post-card-image3::before {
+.event-post-card-image3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1475,7 +1482,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)); /* Gradient */
 }
 
-.events-post-card-text-overlay {
+.event-post-card-text-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1485,24 +1492,24 @@ body {
   z-index: 2;
 }
 
-.events-post-card-type3,
-.events-post-card-title3,
-.events-post-card-date3 {
+.event-post-card-type3,
+.event-post-card-title3,
+.event-post-card-date3 {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
-.events-post-card-type3 {
+.event-post-card-type3 {
   font-size: 18px;
   font-weight: 700;
 }
 
-.events-post-card-title3 {
+.event-post-card-title3 {
   font-size: 60px;
   font-weight: 600;
 }
 
-.events-post-card-date3 {
+.event-post-card-date3 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 10px;
@@ -1974,21 +1981,22 @@ h2::before {
 
 /* End news */
 /* About */
-.breadcrumbs {
+.about-breadcrumbs1 {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #555;
+  margin-left: -86%;
 }
 
-.breadcrumbs a {
+.about-breadcrumbs1 a {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: black;
 }
 
-.breadcrumbs a:hover {
+.about-breadcrumbs1 a:hover {
   text-decoration: underline;
   color: black;
 }
@@ -2023,6 +2031,7 @@ h2::before {
   padding: 40px;
   background-color: #ffffff;
   border-bottom: 1px solid #ccc;
+  margin-left: -5%;
 }
 .about-post-card-image {
   width: 100%;
@@ -2032,7 +2041,7 @@ h2::before {
 }
 .about-post-card-title {
   font-family: "Lora";
-  font-size: 500;
+  font-size: 600;
   size: 54px;
   color: #000000;
   margin-bottom: 20px;
@@ -2040,7 +2049,7 @@ h2::before {
 }
 .about-post-card-date {
   font-family: "Poppins";
-  font-size: 500;
+  font-size: 600;
   size: 20px;
   color: black;
   text-align: left;
@@ -2065,6 +2074,20 @@ h2::before {
   font-size: 500;
   size: 20px;
   color: black;
+}
+
+.about-post-card-title {
+  font-family: "Lora";
+  font-size: 44px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.about-post-card-date {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
 }
 
 /* End About */
@@ -2167,7 +2190,7 @@ h2::before {
   width: 1106px;
   height: 77px;
   text-align: left;
-  margin-left: -10%;
+  margin-left: -3%;
 }
 
 .collection-breadcrumbs {
@@ -2176,7 +2199,7 @@ h2::before {
   font-size: 16px;
   color: #555;
   text-align: left;
-  margin-left: -10%;
+  margin-left: -3%;
 }
 
 .collection-breadcrumbs a {
@@ -2261,7 +2284,7 @@ h2::before {
 .collection-text-container {
   margin-top: 20px;
   text-align: left;
-  margin-left: -10%;
+  margin-left: -3%;
 }
 
 .collection-text1,

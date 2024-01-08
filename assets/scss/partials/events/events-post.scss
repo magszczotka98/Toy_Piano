@@ -1,11 +1,11 @@
-.events-page-container{
+.event-page-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: left;
 }
 
-.events-breadcrumbs {
+.event-breadcrumbs {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -14,19 +14,19 @@
 
 }
 
-.events-breadcrumbs a {
+.event-breadcrumbs a {
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
 
-.events-breadcrumbs a:hover {
+.event-breadcrumbs a:hover {
     text-decoration: underline;
     color: black;
 }
 
-.events-posts-items {
+.event-posts-items {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
@@ -34,57 +34,57 @@
     text-align: left;
 }
 
-.events-post-card {
+.event-post-card {
     display: block;
     border-bottom: 1px solid #ccc;
 }
 
-.events-post-card-image1 {
+.event-post-card-image1 {
     width: 576px;
     height: 384px;
 }
 
-.events-post-card-image2 {
+.event-post-card-image2 {
     width: 272px;
     height: 384px;
 }
 
-.events-post-card-image3 {
+.event-post-card-image3 {
     width: 1184px;
     height: 518px;
 }
 
-.events-post-card-type,
-.events-post-card-type3 {
+.event-post-card-type,
+.event-post-card-type3 {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
 
-.events-post-card-title,
-.events-post-card-title1,
-.events-post-card-title2,
-.events-post-card-title3 {
+.event-post-card-title,
+.event-post-card-title1,
+.event-post-card-title2,
+.event-post-card-title3 {
     font-family: 'Lora', serif;
     font-weight: 500;
 }
 
-.events-post-card-title {
+.event-post-card-title {
     font-size: 44px;
 }
 
-.events-post-card-title1,
-.events-post-card-title2 {
+.event-post-card-title1,
+.event-post-card-title2 {
     font-size: 28px;
 }
 
-.events-post-card-title3 {
+.event-post-card-title3 {
     font-size: 60px;
     color: white;
 }
 
-.events-post-card-date,
-.events-post-card-date2 {
+.event-post-card-date,
+.event-post-card-date2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -94,21 +94,21 @@
     color: #666; 
 }
 
-.events-post-card-date2,
-.events-post-card-type3,
-.events-post-card-title3 {
+.event-post-card-date2,
+.event-post-card-type3,
+.event-post-card-title3 {
     color: white;
 }
 
 /* gradient na całym obrazie */
-.events-post-card-image3 {
+.event-post-card-image3 {
     width: 1184px;
     height: 518px;
     position: relative;
     overflow: hidden;
 }
 
-.events-post-card-image3::before {
+.event-post-card-image3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -119,7 +119,7 @@
 }
 
 
-.events-post-card-text-overlay {
+.event-post-card-text-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -129,24 +129,24 @@
     z-index: 2;
 }
 
-.events-post-card-type3,
-.events-post-card-title3,
-.events-post-card-date3 {
+.event-post-card-type3,
+.event-post-card-title3,
+.event-post-card-date3 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-.events-post-card-type3 {
+.event-post-card-type3 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.events-post-card-title3 {
+.event-post-card-title3 {
     font-size: 60px;
     font-weight: 600;
 }
 
-.events-post-card-date3 {
+.event-post-card-date3 {
     font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
