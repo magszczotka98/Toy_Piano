@@ -17,6 +17,17 @@ a {
   text-decoration: none;
 }
 
+/* Dark mode */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Większe litery */
+body.large-font {
+  font-size: 1.5em; 
+}
+
 /* Common */
 .header {
   position: relative;
@@ -3697,6 +3708,7 @@ s .text-image {
   font-size: 16px;
   color: #555;
   margin-left: -87%;
+  margin-top: -1%;
 }
 
 .newaudio-breadcrumbs a {
@@ -3711,46 +3723,72 @@ s .text-image {
   color: black;
 }
 
-.newaudio-topic-container {
+.newaudio-topic-container h1 {
   font-family: "Poppins";
   size: 70px;
   font-weight: 600;
   text-align: left;
 }
 
+.newaudio-page-title {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+  width: 312px;
+  height: 90px;
+}
+
 .newaudio-page-container {
-  margin-left: 10%;
+  margin-left: 172px;
 }
 
 /*odtwarzacz*/
 .newaudio-image-container img {
   width: 377px;
   height: 400px;
+  margin-left: -193%;
+  margin-top: 20%;
 }
 
 .newaudio-container {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: 3%;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 
 .newaudio-image-container {
   grid-column: 1/2;
+  margin-top: -10%;
+  margin-bottom: -15%;
+  border-bottom: 1px solid #ccc;
+  margin-left: 50%;
 }
 
 .newaudio-audio-info {
   grid-column: 2/3;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 26px;
+  align-content: space-evenly;
+  margin-left: -120%;
+  margin-top: -40%;
+  margin-bottom: 20%;
+}
+
+.audioelement {
+  margin-left: -320%;
+  margin-top: -25%;
 }
 
 .newaudio-title2 {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
+  width: 482px;
+  height: 30px;
 }
 
 /*tekst odtwarzacza*/
@@ -3787,7 +3825,7 @@ s .text-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 13%;
-  margin-left: 10%;
+  margin-left: 11%;
   margin-right: 7%;
 }
 
@@ -3911,6 +3949,10 @@ s .text-image {
   font-weight: 500;
   text-align: left;
   width: 314px;
+}
+
+.newaudio-post-card-title1 {
+  margin-top: 5%;
 }
 
 /* End newaudio*/
@@ -4255,6 +4297,7 @@ s .text-image {
   text-align: left;
   width: 314px;
 }
+
 
 /* End book */
 

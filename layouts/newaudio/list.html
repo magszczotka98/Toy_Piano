@@ -3,53 +3,66 @@
 <div class="newaudio-page">
     <div class="newaudio-topic-container"><br>
         <h1 class="newaudio-page-title" style="color: #000; margin-left: 10%;">Nagrania</h1>
-    </div>
+    </div><br>
     <div class="newaudio-page-container">
         <div class="newaudio-breadcrumbs">
             <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;">Nagrania</span>
         </div>
     </div>
 
-    <div class="newaudio-container">
-            <div class="newaudio-image-container">
-                <img src="/img/blue2.png" alt="newaudio_img" />
+<div class="newaudio-container">
+    <div class="newaudio-image-container">
+        <img src="/img/blue2.png" alt="newaudio_img" />
+    </div>
+    <br>
+
+    <div class="newaudio-audio-info">
+        <div class="newaudio-type">
+            <h1>NAGRANIE</h1>
+        </div>
+        <div class="newaudio-title">
+            <h1>Tytuł nagrania</h1>
+        </div>
+        <div class="newaudio-title2">
+            <div class="newaudio-title2-autor">
+                ● JAN KOWALSKI
             </div>
-        
-            <div class="newaudio-audio-info">
-                <div class="newaudio-type">
-                    <h1>NAGRANIE</h1>
-                </div>
-                <div class="newaudio-title">
-                    <h1>Tytuł nagrania</h1>
-                </div>
-                <div class="newaudio-title2">
-                    <div class="newaudio-title2-autor">
-                        JAN KOWALSKI
-                    </div>
-                    <p>
-                        TYTUŁ NAGRANIA
-                    </p>
-                    <p>
-                        3:03
-                    </p>
-                </div>
-                <br>
-                <div class="newaudio-player-container">
-                    <div class="container">
-                        <audio id="audioPlayer" controls></audio>
-                        <div class="playlist">
-                            <ul id="playlist">
-                                <li data-src="img/music/outroSound.mp3"></li>
-                            </ul>
-                        </div>
-                        <button id="toggleButton" onclick="togglePlayer()">Włącz / Wyłącz</button>
-                    </div>
-                    <script src="/layouts/newaudio/script.js"></script>
-                </div>
+            <p>
+                ● TYTUŁ NAGRANIA
+            </p>
+            <p>
+                ● 3:03
+            </p>
+        </div>
+        <br>
+    </div>
+    <br><br>
+
+    <div class="newaudio-player-container">
+            <div class="container">
+                
+                <div class="audioelement">
+                    <audio id="audioPlayer" controls ="">
+                        <source src="/music/outroSound.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>    
             </div>
+            <script>
+                var audio = document.getElementById("audioPlayer");
+                var toggleButton = document.getElementById("toggleButton");
+
+                function togglePlayer() {
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.pause();
+                    }
+                }
+            </script>
     </div>
 
-    <br>
+
     <div class="newaudio-container-grid">
         <div class="newaudio-text-container">
             <div class="newaudio-text-topic">

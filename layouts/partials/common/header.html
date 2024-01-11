@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="\assets\css\bundle.css">
 <header class="header">
         <div class="nav-bar"><img src="/img/clock.png" alt=""> GALERIA JEST DZIŚ OTWARTA W GODZINACH 10:00–17:00 </div>
     
@@ -19,27 +20,31 @@
                 </nav>
          </div> 
 
-        <div class="header-special-buttons"> 
-            <div class="header-special-changeColorButton" id="changeColorButton" onclick="changeColor()">
-                <img src="/img/moon.png" alt="Moon Icon">
-            </div>
-            <div class="header-special-IncreaseFontSize" id="IncreaseFontSize" onclick="changeColor()">
-                <img src="/img/big.png" alt="big Icon">
+         <div class="header-special-buttons"> 
+                <div class="header-special-changeColorButton" id="changeColorButton" onclick="changeColor()">
+                  <img src="/img/moon.png" alt="Moon Icon">
+                </div>
+                <div class="header-special-IncreaseFontSize" id="IncreaseFontSize" onclick="increaseFontSize()">
+                  <img src="/img/big.png" alt="big Icon">
             </div>
         </div>
     </div>
-    
     <script>
-        function changeColor() {
-            var body = document.body;
-    
-            // Sprawdź aktualny kolor tła
-            var currentTheme = body.classList.contains('standard-theme') ? 'standard-theme' : 'inverted-theme';
-    
-            // Zmień klasę ciała na przeciwną
-            body.classList.toggle('standard-theme');
-            body.classList.toggle('inverted-theme');
-        }
+            document.addEventListener('DOMContentLoaded', function () {
+              const changeColorButton = document.getElementById('changeColorButton');
+              const increaseFontSizeButton = document.getElementById('IncreaseFontSize'); // Poprawiony identyfikator
+              const body = document.body;
+        
+              changeColorButton.addEventListener('click', function () {
+                body.classList.toggle('dark-mode');
+              });
+        
+              increaseFontSizeButton.addEventListener('click', function () {
+                body.classList.toggle('large-font');
+              });
+            });
     </script>
+        
+
     
     
