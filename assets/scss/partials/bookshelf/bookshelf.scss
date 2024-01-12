@@ -27,6 +27,7 @@
     font-size: 64px;
     font-weight: 700;
     width: 312px;
+    margin-left: -27%;
 }
 
 .container{
@@ -42,6 +43,7 @@
 
 .bookshelf-post-card-title1 {
     margin: 0;
+    text-align: left;
 }
 
 .bookshelf-post-card-type {
@@ -51,7 +53,7 @@
 
 
 .bookshelf-post-card h3{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     width: 147px;
@@ -59,13 +61,13 @@
 
 
 .bookshelf-post-card h1{
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
 }
 
 .bookshelf-post-card-type{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 500;
     width: 125px;
@@ -89,16 +91,19 @@
 .bookshelf-post-card1{
     padding: 30px;
     border-bottom: 1px solid #ccc;
+    text-align: left;
 }
 
 .bookshelf-post-card2{
     padding: 30px;
     border-bottom: 1px solid #ccc;
+    text-align: left;
 }
 
 .bookshelf-post-card{
     padding: 30px;
     border-bottom: 1px solid #ccc;
+    text-align: left;
 }
 
 
@@ -120,14 +125,14 @@
 
 .bookshelf-post-card2 h3,
 .bookshelf-post-card3 h3 {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
 }
 
 .bookshelf-post-card2 h1,
 .bookshelf-post-card3 h1 {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
     text-align: left;
@@ -179,20 +184,20 @@
 }
 
 .bookshelf-post-card h3 {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     width: 147px;
 }
 
 .bookshelf-post-card h1 {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 44px;
     font-weight: 500;
 }
 
 .bookshelf-post-card-type {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 500;
     width: 125px;

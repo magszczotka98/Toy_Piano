@@ -10,7 +10,8 @@
   font-size: 96px;
   font-weight: 500;
   width: 503px;
-  margin-left: 30px;
+  margin-left: 135px;
+  margin-top: 1%;
 }
 
 .welcome-paragraph{
@@ -20,7 +21,6 @@
   width: 456px;
   margin-left: 30px;
 }
-
 
 .welcome-container {
     position: relative;
@@ -33,6 +33,7 @@
     align-items: flex-start;
     z-index: 1;
     margin-top: 2px;
+    text-align: left;
 }
 
 .welcome-paragraph {
@@ -41,10 +42,9 @@
   font-weight: 400;
   color: #000000;
   margin-bottom: 30px;
-  margin-left:  27px;
+  margin-left:  10%;
 }
 
-  
   
 .welcome-cover {
     position: absolute;
