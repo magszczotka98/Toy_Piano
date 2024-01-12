@@ -17,6 +17,15 @@ a {
   text-decoration: none;
 }
 
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.large-font {
+  font-size: 1.5em;
+}
+
 /* Common */
 .header {
   position: relative;
