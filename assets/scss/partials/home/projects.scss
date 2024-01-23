@@ -62,3 +62,12 @@
     line-height: 42px;
     color: #000000;
 }
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  body.large-font {
+    font-size: 1.5em;
+  }

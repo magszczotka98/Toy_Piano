@@ -1,57 +1,69 @@
 .welcome {
-    margin-top: 5px;
-    position: relative;
-    height: calc(100vh - 120px);
-    background-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  margin-bottom: 2%;
 }
 
-.welcome-container h1{
-  font-family: 'Lora';
-  font-size: 96px;
-  font-weight: 500;
-  width: 503px;
-  margin-left: 135px;
-  margin-top: 1%;
-}
-
-.welcome-paragraph{
-  font-family: 'Poppins';
-  font-size: 24px;
-  font-weight: 400;
-  width: 456px;
-  margin-left: 30px;
+.welcome-flex-container {
+  display: flex;
+  align-items: center;
+  margin-left: 9%;
+  margin-top: 3%;
 }
 
 .welcome-container {
-    position: relative;
-    max-width: 1400px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    z-index: 1;
-    margin-top: 2px;
-    text-align: left;
+  text-align: left;
+}
+
+.welcome-title {
+  font-family: 'Lora';
+  font-size: 5vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: -3%;
+  color: black;
+}
+
+.welcome-title2 {
+  font-family: 'Lora';
+  font-size: 5vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 1%; 
+  color: black;
 }
 
 .welcome-paragraph {
-  font-size: 24px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
+  font-size: 2vw;
   font-weight: 400;
-  color: #000000;
-  margin-bottom: 30px;
-  margin-left:  10%;
+  text-align: left;
+  width: 65%;
+  color: #090B0EB2;
 }
 
-  
+.welcome-img-container {
+  text-align: left;
+}
+
+.welcome-img-container img {
+  width: 100%; 
+  max-width: 100%;
+  height: auto;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-left: -30%;
+}
+
 .welcome-cover {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.large-font {
+  font-size: 1.5em;
 }

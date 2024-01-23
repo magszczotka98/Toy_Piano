@@ -1,86 +1,177 @@
-
-.news-container{
-    margin-left: 6%;
-    margin-right: 8%;
-}
-
-.news-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between; 
-    align-items: center; 
-    margin-top: 11px;
+/* Resetowanie domyślnych stylów dla responsywności */
+body, h1, p, div, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
-.event-title h1{
+  
+  /* Dodane media queries dla responsywności */
+  @media (max-width: 1200px) {
+    .new-image-container {
+      flex-direction: column;
+    }
+  
+    .new-posts-items,
+    .new-posts-items1,
+    .new-posts-items2 {
+      flex: 1 0 calc(50% - 10px);
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .new-container,
+    .btn {
+      flex-direction: column;
+    }
+  
+    .btn h1 {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .arrow-icon {
+      margin-left: 0;
+    }
+  
+    .new-image3 img {
+      margin-left: 0;
+    }
+  }
+  
+  /* Stylizacja sekcji Wydarzenia */
+  .new {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .new-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 7%;
+  }
+  
+  .new-topic-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .new-title h1 {
     font-family: 'Lora';
     font-size: 56px;
     font-weight: 600;
-}
-
-.event-title span{
+    text-align: left;
+  }
+  
+  .btn {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .btn h1 {
+    font-family: 'Lora';
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-right: 20px;
+  }
+  
+  .btn span {
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 400;
-
-}
-
-.news-iamge-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px; /* odstęp między elementami */
-    margin-left: 5%;
+  }
+  
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+  }
+  
+  /* Stylizacja pojedynczego wydarzenia w responsywnym układzie flexbox */
+  .new-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
     margin-right: 5%;
   }
   
-
-
-.news-type2{
+  .new-posts-items1,
+  .new-posts-items2 {
+    flex: 1 0 calc(33.333% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .new-posts-items1,
+  .new-posts-items2 {
+    flex: 1 0 calc(50% - 10px);
+  }
+  
+  .new {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-image1 {
+    width: 576px;
+    height: 384px;
+  }
+  
+  .new-image2 {
+    width: 272px;
+    height: 384px;
+  }
+ 
+  .new-title1,
+  .new-title2,
+  .new-date1,
+  .new-date2 {
+    margin-bottom: 10px;
+  }
+  
+  .new-title1,
+  .new-title2 {
+    margin-top: 5px;
     font-family: 'Lora';
+    text-align: left;
+  }
+  
+
+  .new-title1 {
     font-size: 44px;
     font-weight: 500;
-    width: 468px;
-    height: 124px;
-}
-
-.news-date2{
+  }
+  
+  .new-title2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .new-date1,
+  .new-date2 {
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 400;
-    width: 236px;
-    height: 30px;
-    
-}
-
-.news-type1{
-    font-family: 'Lora';
-    font-size: 28px;
-    font-weight: 600;
-    width: 224px;
-    height: 130px;
     text-align: left;
-}
-
-.news-date1{
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-weight: 400;
-    width: 212px;
-    height: 27px;
-
-}
-
-.news-container {
-    margin-top: 20px; 
-}
-
-
-.news-image1 img {
-    width: 576px;
-    height: 384px;
-}
-
-.news-image2 {
-    width: 272px;
-    height: 384px;
-}
+  }
+  
+  /* zmiana kolorów strony i tekstu */
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  body.large-font {
+    font-size: 1.5em;
+  }
+  

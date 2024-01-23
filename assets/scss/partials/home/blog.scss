@@ -2,6 +2,8 @@
 
 }
 
+
+
 .blog-container {
     max-width: $size-screen-xl;
     width: 100%;
@@ -29,3 +31,12 @@
     font-size: 40px;
     color: #727272;
 }
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  body.large-font {
+    font-size: 1.5em;
+  }

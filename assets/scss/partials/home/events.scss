@@ -1,26 +1,61 @@
-
-body {
-  font-family: 'Arial', sans-serif;
+/* Resetowanie domyślnych stylów dla responsywności */
+body, h1, p, div, a {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+/* Dodane media queries dla responsywności */
+@media (max-width: 1200px) {
+  .events-image-container {
+    flex-direction: column;
+  }
+
+  .events-posts-items,
+  .events-posts-items1,
+  .events-posts-items2 {
+    flex: 1 0 calc(50% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }
-.header,
-.footer {
+
+@media (max-width: 768px) {
+  .events-container,
+  .btn {
+    flex-direction: column;
+  }
+
+  .btn h1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .arrow-icon {
+    margin-left: 0;
+  }
+
+  .events-text-overlay {
+    padding: 10px;
+  }
+
+  .events-image3 img {
+    margin-left: 0;
+  }
+}
+
+/* Stylizacja sekcji Wydarzenia */
+.events {
   background-color: #ffffff;
   padding: 20px;
-  text-align: center;
 }
 
-.events {
-  padding-top: 80px;
-  padding-bottom: 5%;
-  background-color: #ffffff;
-  text-align: left;
+.events-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 9%;
+  margin-right: 7%;
 }
 
 .topic-container {
@@ -28,6 +63,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.events-title h1 {
+  font-family: 'Lora';
+  font-size: 56px;
+  font-weight: 600;
+  text-align: left;
 }
 
 .btn {
@@ -57,127 +99,32 @@ body {
   margin-left: auto;
 }
 
-.events-container {
-  display: grid;
-  grid-template-columns: auto auto; 
-  justify-content: space-between; 
-  align-items: center; 
-  margin-right: 7%;
-}
-
-.topic-container h1{
-  font-family: 'Lora';
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 78px;
-}
-
-.events-container {
-  margin-left: 9%;
-}
-
-.events-container2,
-.events-iamge-container {
-  max-width: $size-screen-xl;
-  width: 1184px;
-  margin: 0 auto;
-  margin-left: 5%;
+/* Stylizacja pojedynczego wydarzenia w responsywnym układzie flexbox */
+.events-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
   margin-right: 5%;
 }
 
-.events-image3{
-  width: 1184px;
-  height: 518px;
-
-}
-
-.events-image3,
-.events-posts-items {
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.events-image3 img {
-  height: 517px;;
-  width: 1184px;
-  object-fit: cover;
-  margin-left: 5%;
-
-}
-
-.events-text-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 1184px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
-  padding: 50px;
-  box-sizing: border-box;
-  color: #ffffff;
-  margin-left: 58px;
-  text-align: left;
-}
-
-.events-type,
-.events-title,
-.events-date {
+.events-posts-items,
+.events-posts-items1,
+.events-posts-items2 {
+  flex: 1 0 calc(33.333% - 10px);
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.events-type,
-.events-type1,
-.events-type2 {
-  font-family: 'Poppins';
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.events-title,
-.events-title1,
-.events-title2 {
-  font-family: 'Lora';
-  font-size: 56px;
-  font-weight: 600;
-}
-
-.events-date,
-.events-date1,
-.events-date2 {
-  font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 400;
-}
-
-/* Grid Styles */
-.events-grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
-  padding: 10px;
-  width: 100%;
-  max-width: 1184px;
-  margin: 1705px auto 0 auto;
-  position: relative;
-  gap: 32px;
-}
-
-.events-posts-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 10%;
-  flex-direction: row-reverse;
+.events-posts-items1,
+.events-posts-items2 {
+  flex: 1 0 calc(50% - 10px);
 }
 
 .events {
-  flex: 0 1 calc(25% - 10px);
-  margin-bottom: 20px;
   text-decoration: none;
   color: black;
-}
-
-.events > * {
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .events-image1 {
@@ -190,24 +137,102 @@ body {
   height: 384px;
 }
 
-.events-posts-item{
-  margin-left: 8%;
-  margin-top: 9%;
+.events-image3 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-
-/* Responsive Styles */
-@media (max-width: 1200px) {
-  .events-grid-container {
-    grid-template-columns: repeat(3, auto);
-    max-width: 1184px;
-  }
+.events-image3 img {
+  width: 1184px;
+  height: 518px;
+  object-fit: cover;
 }
 
-.events-iamge-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  margin-left: 21%;
-  margin-right: 5%;
-  border-top: 1px solid #ccc;
+.events-text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  padding: 5%;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.events-type,
+.events-title,
+.events-date,
+.events-type1,
+.events-type2,
+.events-title1,
+.events-title2,
+.events-date1,
+.events-date2 {
+  margin-bottom: 10px;
+}
+
+.events-type {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.events-type1,
+.events-type2 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.events-title,
+.events-title1,
+.events-title2 {
+  margin-top: 5px;
+  font-family: 'Lora';
+  text-align: left;
+}
+
+.events-title {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.events-title1 {
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.events-title2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.events-date,
+.events-date1,
+.events-date2 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* zmiana kolorów strony i tekstu */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.large-font {
+  font-size: 1.5em;
 }
