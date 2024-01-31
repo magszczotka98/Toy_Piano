@@ -1,33 +1,31 @@
 <header class="header">
-      <div class="nav-bar"><img src="/img/clock.png" alt=""> GALERIA JEST DZIŚ OTWARTA W GODZINACH 10:00–17:00 </div>
-    
-    <div class="header-grid-container">
-        <div class="header-logo-container">
-            <a href="/" class="header-logo">
-                <img src="/img/logo.png" alt="Logo">
-            </a>
-        </div>
-        <br>
-                
-        <div class="header-container">
-           <nav class="header-nav"><br><br>
-                <a href="/visit" class="header-nav-item">Wizyta</a>
-                <a href="/about" class="header-nav-item">O nas</a>
-                <a href="/events" class="header-nav-item">Wydarzenia</a>
-                <a href="/collection" class="header-nav-item">Kolekcja</a>
-                <a href="/library" class="header-nav-item">Biblioteka</a>
-            </nav>
-         </div> 
+  <div class="nav-bar"><img src="/img/clock.png" alt=""> GALERIA JEST DZIŚ OTWARTA W GODZINACH 10:00–17:00 </div>
 
-         <div class="header-special-buttons"> 
-                <div class="header-special-changeColorButton" id="changeColorButton" onclick="changeColor()">
-                  <img src="/img/moon.png" alt="Moon Icon">
-                </div>
-                <div class="header-special-IncreaseFontSize" id="IncreaseFontSize" onclick="increaseFontSize()">
-                  <img src="/img/big.png" alt="big Icon">
-            </div>
-        </div>
+  <div class="header-grid-container">
+    <div class="header-logo-container">
+      <a href="/" class="header-logo">
+        <img src="/img/logo.png" alt="Logo">
+      </a>
     </div>
+    <div class="header-container">
+      <nav class="header-nav">
+        <a href="/visit" class="header-nav-item">Wizyta</a>
+        <a href="/about" class="header-nav-item">O nas</a>
+        <a href="/events" class="header-nav-item">Wydarzenia</a>
+        <a href="/collection" class="header-nav-item">Kolekcja</a>
+        <a href="/library" class="header-nav-item">Biblioteka</a>
+      </nav>
+    </div>
+    <div class="header-special-buttons">
+      <div class="header-special-changeColorButton" id="changeColorButton" onclick="changeColor()">
+        <img src="/img/moon.png" alt="Moon Icon">
+      </div>
+      <div class="header-special-IncreaseFontSize" id="IncreaseFontSize" onclick="increaseFontSize()">
+        <img src="/img/big.png" alt="big Icon">
+      </div>
+    </div>
+  </div>
+</header>
     <script>
             document.addEventListener('DOMContentLoaded', function () {
               const changeColorButton = document.getElementById('changeColorButton');

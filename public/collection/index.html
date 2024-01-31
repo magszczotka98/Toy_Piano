@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Galeria Toy Piano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-REHdJ54MZtr1PTlAePH6Zwv+3GLZLDB+Uv/jYo4SNBnLUG2SJ5qUONMkB2mmMDAzyx3bQ74iD2pMnsx7y9bCCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/test/css/bundle.min.79911cf0e68fb5bc16de28e585f689d0ae6cf7489fc7453e9c3242df92abd3a1.css" integrity="sha256-eZEc8OaPtbwW3ijlhfaJ0K5s90ifx0U&#43;nDJC35Kr06E=" />
+</head>
+
+    <body>
+        <header class="header">
+  <div class="nav-bar"><img src="/img/clock.png" alt=""> GALERIA JEST DZIŚ OTWARTA W GODZINACH 10:00–17:00 </div>
+
+  <div class="header-grid-container">
+    <div class="header-logo-container">
+      <a href="/" class="header-logo">
+        <img src="/img/logo.png" alt="Logo">
+      </a>
+    </div>
+    <div class="header-container">
+      <nav class="header-nav">
+        <a href="/visit" class="header-nav-item">Wizyta</a>
+        <a href="/about" class="header-nav-item">O nas</a>
+        <a href="/events" class="header-nav-item">Wydarzenia</a>
+        <a href="/collection" class="header-nav-item">Kolekcja</a>
+        <a href="/library" class="header-nav-item">Biblioteka</a>
+      </nav>
+    </div>
+    <div class="header-special-buttons">
+      <div class="header-special-changeColorButton" id="changeColorButton" onclick="changeColor()">
+        <img src="/img/moon.png" alt="Moon Icon">
+      </div>
+      <div class="header-special-IncreaseFontSize" id="IncreaseFontSize" onclick="increaseFontSize()">
+        <img src="/img/big.png" alt="big Icon">
+      </div>
+    </div>
+  </div>
+</header>
+    <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              const changeColorButton = document.getElementById('changeColorButton');
+              const increaseFontSizeButton = document.getElementById('IncreaseFontSize'); 
+              const body = document.body;
+        
+              changeColorButton.addEventListener('click', function () {
+                body.classList.toggle('dark-mode');
+              });
+        
+              increaseFontSizeButton.addEventListener('click', function () {
+                body.classList.toggle('large-font');
+              });
+            });
+    </script>
+        
+
+    
+    
+
+        
+
+<div class="collection-page">
+    <div class="collection-page-container">
+        <div class="collection-topic-container">
+            <h1 class="collection-page-title" style="color: #000">Kolekcja</h1><br>
+        </div>
+        <div class="collection-breadcrumbs">
+            <a href="/" style="color: #000;">Strona główna</a> > <span style="color: #888;">Kolekcja</span>
+        </div>
+
+        <div class="collection-text-container">
+            <h1>Lorem ipsum dolor sit amet consectetur. Consectetur dui lorem ornare iaculis </h1><br>
+
+            <div class="collection-text1">
+                <p>Lorem ipsum dolor sit amet consectetur. Dignissim viverra fusce rhoncus lobortis sit praesent</p>
+                <p>
+                    ultricies vestibulum. A congue sit varius mauris blandit adipiscing eget morbi. Tellus consectetur
+                </p>
+                <p>
+                    ornare cras velit in pretium nunc nullam
+                </p>
+            </div><br>
+
+            <div class="collection-text2">
+                <p>
+                    Vulputate fringilla ut venenatis amet diam diam aenean. Turpis urna tempus commodo orci sit varius
+                </p>
+                <p>
+                    pulvinar ut massa. Vulputate malesuada dignissim lectus nunc netus aliquet. Proin aenean quam arcu
+                </p>
+                <p>
+                    hendrerit iaculis faucibus est eu neque. Imperdiet sit auctor vitae justo at. Lobortis lobortis semper suspendisse commodo malesuada.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="collection-images-container">
+                
+                <div class="collection-post-card">
+                    <a href="/pellentsequra/" style="color: #000">
+                        <img class="collection-post-card-image" src="/img/red.png" />
+                        <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                        <h1 class="collection-post-card-title1">Pellentesque</h1>
+                        <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                        <div class="collection-post-card-date1">XIX WIEK</div>
+                    </a>
+                
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="/pellentsequra/" style="color: #000">
+                        <img class="collection-post-card-image" src="/img/yellow.png" />
+                        <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                    </a>
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="/pellentsequra/" style="color: #000">
+                        <img class="collection-post-card-image" src="/img/orange.png" />
+                        <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                        <h1 class="collection-post-card-title1">Pellentesque</h1>
+                        <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                        <div class="collection-post-card-date1">XIX WIEK</div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="collection-images-container">
+                
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/green.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/green.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/green.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+            </div>
+    
+            <div class="collection-images-container">
+                
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/yellow.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/orange.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+    
+                <div class="collection-post-card">
+                    <a href="#">
+                        <img class="collection-post-card-image" src="/img/orange.png" />
+                    </a>
+                    <h3 class="collection-post-card-title1">Autor nieznany</h3>
+                    <h1 class="collection-post-card-title1">Pellentesque</h1>
+                    <div class="collection-post-card-type">WYSTAWA STAŁA</div>
+                    <div class="collection-post-card-date1">XIX WIEK</div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+    <div class="visit-info">
+        <h1 class="visit-title">Wizyta</h1>
+        <a href="/visit" class="btn">
+          <span>Zobacz więcej</span>
+          <i class="fas fa-arrow-right"></i>
+          <img src="\img\Arrow.png" alt="Strzałka" class="arrow-icon">
+        </a>
+    </div>
+    <div class="visit-container">
+      <div class="visit-details">
+        <div class="opening-hours">
+          <h1>Godziny Otwarcia</h1>
+          <p>Czwartek - <strong>14:00 - 19:00</strong></p><br>
+          <p>Sobota - <strong>12:00 - 18:00</strong></p><br>
+          <p>Niedziela - <strong>12:00 - 18:00</strong></p>
+        </div>
+        <div class="adres-title">
+          <h1>Adres</h1><br>
+          <p>Ruska 46A</p><br>
+          <p>Wrocław 50-079</p>
+        </div>
+      </div>
+    </div>
+  
+        <div class="main-container">
+          <div class="logo-container">
+            <img src="/img/logo.png" alt="Logo">
+            <div class="vector">
+              <br><br><br><br><br><br><br><br><br><br>
+            <img src="/img/Vector.png" alt="Vector Logo">
+          </div>
+          </div>
+        
+          <div class="part1">
+            <div class="Toy-Piano">
+              <h3>Galeria Toy Piano</h3>
+              <br>
+              <p>Ruska 46A</p>
+              <p>Wrocław 50 - 079</p>
+              <p>Telefon: 607 320 564</p>
+            </div>
+            <br>
+            <div class="info">
+              <h3>Ognisko Kultury Plastycznej im. E. Gepperta we Wrocławiu</h3>
+              <br>
+              <p>Ruska 46A</p>
+              <p>Wrocław 50 - 079</p>
+              <p>Telefon: 607 320 564</p>
+            </div>
+          </div>
+          <br>
+          <div class="links-container">
+            <div class="links-shorts">
+              <h3>Na skróty</h3><br>
+              <a href="/visit" class="item">Wizyta</a><br>
+              <a href="/about" class="item">O nas</a><br>
+              <a href="/news" class="item">Wydarzenia</a><br>
+              <a href="/collection" class="item">Kolekcja</a><br>
+              <a href="/library" class="item">Biblioteka</a><br>
+            </div><br>
+            <div class="links-webs">
+              <h3>Bądź na bieżąco</h3><br>
+              <a href="https://www.facebook.com" class="web">Facebook</a><br>
+              <a href="https://www.youtube.com/@otwarte.pracownie.wroclaw9575" class="web">Youtube</a><br>
+              <a href="https://www.instagram.com" class="web">Instagram</a>
+            </div>
+          </div>
+        </div>
+    
+    
+  
+    <div class="footer-container">
+      <div class="footer-nav">
+        <a href="" class="footer-nav-item">Biuletyn Informacji Publicznej</a>
+        <a href="" class="footer-nav-item">Regulamin strony</a>
+        <a href="" class="footer-nav-item">Deklaracja Dostępności</a>
+      </div>
+      <p class="footer-copyright">
+        © Galeria Toy Piano Wszystkie prawa zastrzeżone
+      </p>
+    </div>
+  </footer>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+        
+    </body>
+</html>

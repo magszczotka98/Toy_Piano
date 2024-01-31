@@ -1,13 +1,13 @@
 .welcome {
   background-color: #FFFFFF;
-  margin-bottom: 2%;
+  margin-bottom: 2vw; 
 }
 
 .welcome-flex-container {
   display: flex;
   align-items: center;
-  margin-left: 9%;
-  margin-top: 3%;
+  margin-left: calc(7vw + 3%); 
+  margin-top: 3vw; 
 }
 
 .welcome-container {
@@ -19,7 +19,7 @@
   font-size: 5vw;
   font-weight: 500;
   text-align: left;
-  margin-bottom: -3%;
+  margin-bottom: -1vw; 
   color: black;
 }
 
@@ -28,7 +28,7 @@
   font-size: 5vw;
   font-weight: 500;
   text-align: left;
-  margin-bottom: 1%; 
+  margin-bottom: 1vw; 
   color: black;
 }
 
@@ -37,7 +37,7 @@
   font-size: 2vw;
   font-weight: 400;
   text-align: left;
-  width: 65%;
+  width: 38vw; 
   color: #090B0EB2;
 }
 
@@ -46,12 +46,12 @@
 }
 
 .welcome-img-container img {
-  width: 100%; 
+  width: 44vw; 
   max-width: 100%;
   height: auto;
-  margin-right: 5%;
-  margin-top: 3%;
-  margin-left: -30%;
+  margin-right: 5vw;
+  margin-top: 3vw; 
+  margin-left: 1vw; 
 }
 
 .welcome-cover {

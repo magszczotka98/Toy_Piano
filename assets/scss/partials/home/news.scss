@@ -1,177 +1,178 @@
 /* Resetowanie domyślnych stylów dla responsywności */
 body, h1, p, div, a {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Dodane media queries dla responsywności */
-  @media (max-width: 1200px) {
-    .new-image-container {
-      flex-direction: column;
-    }
-  
-    .new-posts-items,
-    .new-posts-items1,
-    .new-posts-items2 {
-      flex: 1 0 calc(50% - 10px);
-      margin-right: 10px;
-      margin-bottom: 10px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .new-container,
-    .btn {
-      flex-direction: column;
-    }
-  
-    .btn h1 {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-  
-    .arrow-icon {
-      margin-left: 0;
-    }
-  
-    .new-image3 img {
-      margin-left: 0;
-    }
-  }
-  
-  /* Stylizacja sekcji Wydarzenia */
-  .new {
-    background-color: #ffffff;
-    padding: 20px;
-  }
-  
-  .new-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 9%;
-    margin-right: 7%;
-  }
-  
-  .new-topic-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .new-title h1 {
-    font-family: 'Lora';
-    font-size: 56px;
-    font-weight: 600;
-    text-align: left;
-  }
-  
-  .btn {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .btn h1 {
-    font-family: 'Lora';
-    font-size: 24px;
-    font-weight: 600;
-    color: #000000;
-    margin-right: 20px;
-  }
-  
-  .btn span {
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-weight: 400;
-  }
-  
-  .arrow-icon {
-    width: 20px;
-    height: 20px;
-    margin-left: auto;
-  }
-  
-  /* Stylizacja pojedynczego wydarzenia w responsywnym układzie flexbox */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dodane media queries dla responsywności */
+@media (max-width: 1200px) {
   .new-image-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10%;
+    flex-direction: column;
+    margin-left: 5%;
     margin-right: 5%;
   }
-  
+
+  .new-posts-items,
   .new-posts-items1,
   .new-posts-items2 {
-    flex: 1 0 calc(33.333% - 10px);
-    margin-right: 10px;
+    flex: 1 0 calc(100% - 10px);
+    margin-right: 0; 
     margin-bottom: 10px;
   }
-  
-  .new-posts-items1,
-  .new-posts-items2 {
-    flex: 1 0 calc(50% - 10px);
-  }
-  
-  .new {
-    text-decoration: none;
-    color: black;
-    display: flex;
+}
+
+@media (max-width: 768px) {
+  .new-container,
+  .btn {
     flex-direction: column;
   }
-  
-  .new-image1 {
-    width: 576px;
-    height: 384px;
-  }
-  
-  .new-image2 {
-    width: 272px;
-    height: 384px;
-  }
- 
-  .new-title1,
-  .new-title2,
-  .new-date1,
-  .new-date2 {
-    margin-bottom: 10px;
-  }
-  
-  .new-title1,
-  .new-title2 {
-    margin-top: 5px;
-    font-family: 'Lora';
-    text-align: left;
-  }
-  
 
-  .new-title1 {
-    font-size: 44px;
-    font-weight: 500;
+  .btn h1 {
+    margin-right: 0;
+    margin-bottom: 1.6vw;
   }
-  
-  .new-title2 {
-    font-size: 28px;
-    font-weight: 600;
+
+  .arrow-icon {
+    margin-left: 0;
   }
-  
-  .new-date1,
-  .new-date2 {
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
+
+  .new-image3 img {
+    margin-left: 0;
   }
-  
-  /* zmiana kolorów strony i tekstu */
-  body.dark-mode {
-    background-color: black;
-    color: white;
-  }
-  
-  body.large-font {
-    font-size: 1.5em;
-  }
-  
+}
+
+/* Stylizacja sekcji Wydarzenia */
+.new {
+  background-color: #ffffff;
+  padding: 2vw;
+}
+
+.new-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 2vw;
+  flex-direction: row;
+}
+
+.new-topic-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6vw;
+}
+
+.new-title h1 {
+  font-family: 'Lora';
+  font-size: 3.5vw;
+  font-weight: 600;
+  text-align: left;
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 2vw;
+}
+
+.btn h1 {
+  font-family: 'Lora';
+  font-size: 1.8vw;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 2vw;
+}
+
+.btn span {
+  font-family: 'Poppins';
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+
+.arrow-icon {
+  width: 2vw;
+  height: 2vw;
+  margin-left: auto;
+}
+
+/* Stylizacja pojedynczego wydarzenia w responsywnym układzie flexbox */
+.new-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7.5vw;
+  margin-right: 1.6vw;
+}
+
+.new-posts-items1,
+.new-posts-items2 {
+  flex: 1 0 calc(33.333% - 1.6vw);
+  margin-right: 1.6vw;
+  margin-bottom: 1.6vw;
+}
+
+.new-posts-items1,
+.new-posts-items2 {
+  flex: 1 0 calc(50% - 1.6vw);
+}
+
+.new {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-image1 {
+  width: 40vw; 
+  height: auto;
+}
+
+.new-image2 {
+  width: 18vw; 
+  height: 27vw;  
+}
+
+.new-title1,
+.new-title2,
+.new-date1,
+.new-date2 {
+  margin-bottom: 1.6vw;
+}
+
+.new-title1,
+.new-title2 {
+  margin-top: 0.5vw;
+  font-family: 'Lora';
+  text-align: left;
+}
+
+.new-title1 {
+  font-size: 3.7vw;
+  font-weight: 500;
+}
+
+.new-title2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.new-date1,
+.new-date2 {
+  font-family: 'Poppins';
+  font-size: 1.2vw;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* zmiana kolorów strony i tekstu */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.large-font {
+  font-size: 1.5em;
+}

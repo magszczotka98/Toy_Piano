@@ -5,17 +5,19 @@ body, h1, p, div, a {
   box-sizing: border-box;
 }
 
-/* Dodane media queries dla responsywności */
+/* media queries dla responsywności */
 @media (max-width: 1200px) {
   .events-image-container {
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .events-posts-items,
   .events-posts-items1,
   .events-posts-items2 {
-    flex: 1 0 calc(50% - 10px);
-    margin-right: 10px;
+    flex: 1 0 calc(100% - 10px); 
+    margin-right: 0; 
     margin-bottom: 10px;
   }
 }
@@ -36,7 +38,7 @@ body, h1, p, div, a {
   }
 
   .events-text-overlay {
-    padding: 10px;
+    padding: 5% 5% 10%; 
   }
 
   .events-image3 img {
@@ -54,8 +56,9 @@ body, h1, p, div, a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 9%;
-  margin-right: 7%;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  flex-direction: row;
 }
 
 .topic-container {
@@ -67,7 +70,7 @@ body, h1, p, div, a {
 
 .events-title h1 {
   font-family: 'Lora';
-  font-size: 56px;
+  font-size: 3.5vw; /*56px*/
   font-weight: 600;
   text-align: left;
 }
@@ -99,25 +102,25 @@ body, h1, p, div, a {
   margin-left: auto;
 }
 
-/* Stylizacja pojedynczego wydarzenia w responsywnym układzie flexbox */
+
 .events-image-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 5%;
+  margin-left: 8vw; 
+  margin-right: 5%; 
 }
 
 .events-posts-items,
 .events-posts-items1,
 .events-posts-items2 {
-  flex: 1 0 calc(33.333% - 10px);
+  flex: 1 0 calc(50% - 10px);
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .events-posts-items1,
 .events-posts-items2 {
-  flex: 1 0 calc(50% - 10px);
+  flex: 1 0 calc(100% - 10px); 
 }
 
 .events {
@@ -128,35 +131,39 @@ body, h1, p, div, a {
 }
 
 .events-image1 {
-  width: 576px;
-  height: 384px;
+  width: 40vw; 
+  height: auto; 
+  
 }
 
 .events-image2 {
-  width: 272px;
-  height: 384px;
+  width: 18vw; 
+  height: 27vw; 
 }
 
 .events-image3 {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  max-width: 1184px;
+  width: 80vw;
+  max-width: 100%;
+  height: 75vh;
   margin: 0 auto;
   margin-bottom: 50px;
+  margin-left: 7%;
 }
 
 .events-image3 img {
-  width: 1184px;
-  height: 518px;
-  object-fit: cover;
+  width: 80vw;
+  height: 70vh; 
+  object-fit: cover; 
+  max-width: 100%;
 }
 
 .events-text-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 80vw;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
   padding: 5%;
   box-sizing: border-box;
@@ -167,6 +174,8 @@ body, h1, p, div, a {
   justify-content: flex-end;
   height: 100%;
   transition: opacity 0.3s ease;
+  margin-bottom: 2.5vw;
+  
 }
 
 .events-type,
@@ -178,12 +187,12 @@ body, h1, p, div, a {
 .events-title2,
 .events-date1,
 .events-date2 {
-  margin-bottom: 10px;
+  margin-bottom: 1vw; 
 }
 
 .events-type {
   font-family: 'Poppins';
-  font-size: 18px;
+  font-size: 1vw;
   font-weight: 700;
   text-align: left;
 }
@@ -191,30 +200,30 @@ body, h1, p, div, a {
 .events-type1,
 .events-type2 {
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 1.6vw; 
   font-weight: 600;
 }
 
 .events-title,
 .events-title1,
 .events-title2 {
-  margin-top: 5px;
+  margin-top: 0.5vw;
   font-family: 'Lora';
   text-align: left;
 }
 
 .events-title {
-  font-size: 56px;
+  font-size: 4.5vw; 
   font-weight: 600;
 }
 
 .events-title1 {
-  font-size: 44px;
+  font-size: 3.4vw; 
   font-weight: 500;
 }
 
 .events-title2 {
-  font-size: 28px;
+  font-size: 2.5vw; 
   font-weight: 600;
 }
 
@@ -222,9 +231,37 @@ body, h1, p, div, a {
 .events-date1,
 .events-date2 {
   font-family: 'Poppins';
-  font-size: 20px;
+  font-size: 1.2vw; 
   font-weight: 400;
   text-align: left;
+}
+
+/* ustawienie image3 do ekranów mobilnych*/
+@media (max-width: 768px) {
+  .events-image3 img {
+    width: 100%;
+    max-height: 35vh; /* Maksymalna wysokość dla ekranów mobilnych */
+    object-fit: cover; /* Zachowanie proporcji obrazu */
+  }
+
+  .events-text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80vw;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    padding: 5%;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 35vw;
+    transition: opacity 0.3s ease;
+    margin-bottom: 40.5vw;
+    
+  }
 }
 
 /* zmiana kolorów strony i tekstu */
